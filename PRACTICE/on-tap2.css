@@ -1,0 +1,320 @@
+/* .showroom {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+
+.btn-gold {
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    color: #5d4037;
+    background-image: linear-gradient(180deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(191, 149, 63, 0.4);
+    transition: 0.3s;
+}
+
+.btn-gold:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    transition: 0.3s;
+} */
+
+
+
+/* :root {
+    color: red;
+} */
+
+/* * {
+    color: blueviolet;
+} */
+
+
+
+
+/* body {
+    margin: 0;
+} */
+/* html {
+    color: saddlebrown !important;
+} */
+body {
+    height: 100vh;
+    width: 100%;
+    /* margin: 0; */
+    background-color: lightgray;
+}
+.gallery {
+   outline: 2px solid red;
+    height: 100vh;
+    background: linear-gradient(135deg, #555, #333);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.card:hover {
+    
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.card-image {
+    height: 250px;
+    background-image: url(https://www.designersofas4u.co.uk/images/pictures/product-images/chesterfield-range/chesterfield-2-seater-sofa-settee-wing-chair-old-english-tan-leather.jpg?v=788bf102);
+    background-size: cover;
+    position: relative;
+}
+
+.tag {
+ 
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px 15px;
+    background: #bf953f;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius: 50px;
+}
+
+.card-info {
+    /* box-sizing: border-box; */
+    /* border: 1px solid transparent; */
+    /* outline: 1px solid blue; */
+    background-color: darkred;
+    padding-top: 20px;
+    text-align: center;
+    /* overflow: hidden; */
+    
+}
+
+.item-name {
+    /* margin: 0; */
+   /* padding-top: -50px; */
+    /* margin-bottom: 50px; */
+    /* text-align: center; */
+    background-image: linear-gradient(to bottom,  #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.item-desc {
+    /* margin-bottom: 20px; */
+    /* text-align: center; */
+    color: burlywood;
+    
+}
+
+.btn-buy {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #bf953f;
+    color: #bf953f;
+    cursor: pointer;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 0px;
+  
+}
+
+.btn-buy:hover {
+    transition: 0.3s;
+    background-color: gold;
+    color: black;
+}
+
+ /* .kbox {
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+     box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.5);
+ } */
+
+ 
+ .showroom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    width: 500px;
+    position: relative;
+    background-image: url(https://img.freepik.com/free-photo/sofa-living-room-with-copy-space_43614-869.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    overflow: hidden;
+    background-origin: content-box;
+    background-size: contain;
+    border: 10px dotted black;
+ }
+
+ .product-sofa {
+    width: 200px;
+    height: 150px;
+    background-color: saddlebrown;
+    position:absolute;
+    /* top: 100px;
+    left: 100px; */
+    z-index: 2;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+ }
+
+ .glass-panel {
+    width: 300px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    /* top: 50px;
+    left: 50px; */
+    z-index: 3;
+ }
+
+ .price-tag {
+    padding: 10px;
+    background: red;
+    color: white;
+    position: absolute;
+    /* top: 120px;
+    left: 180px; */
+    z-index: 4;
+ }
+
+
+ .box {
+    /* display: flex; */
+    
+    width: calc(80% + 20%);
+    height: 120px;
+    background: rgb(103, 15, 72);
+    color: red;
+ }
+
+ a::after {
+    /* content: "(" attr(href)")"; */
+    content: attr(href);
+ }
+
+
+
+
+ .box:active {
+    background-color: #333;
+ }
+
+ /* .pseudo li:first-child {
+    color: red;
+    font-size: 30px;
+ }
+ .pseudo li:last-child {
+    color: red;
+    font-style: italic;
+    font-size: 40px;
+ } */
+ ul:first-of-type li:first-child{
+    color: red;
+ }
+ul:last-of-type li:last-child {
+    color: red;
+  
+}
+
+.pseudo li:last-child {
+    color: red;
+}
+ /* ul:nth-of-type(2) li:last-child{
+    color: red;
+ } */
+ /* .pseudo {
+    color: yellow;
+ } */
+ .box::after {
+    content: attr(abc);
+    font-size: 30px;
+    
+ }
+ .box::before {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    content: "hello";
+    display: block;
+ }
+ .box::after {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    content: "hello";
+    display: block;
+    font-size: 24px;
+    
+ }
+
+a::after{
+    content: "("attr(href)")";
+}
+
+
+
+.sample::first-letter {
+    font-size: 50px;
+    color: magenta;
+    font-style: italic;
+}
+.sample::first-line {
+    color: aqua;
+}
+h1::selection {
+    background-color: pink;
+    color: #fff;
+    cursor: crosshair;
+}
+
+.act {
+    /* background-image: linear-gradient(90deg, rgba(255, 255, 50, 0.5), rgba(0, 255, 2, 0.5));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+    color: #333;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+}
+
+/* 
+
+ 
+p:active {
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}  */
+
+.header {
+    /* width: 100%; */
+    height: 42px;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

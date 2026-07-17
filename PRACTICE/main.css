@@ -1,0 +1,134 @@
+/* h1{
+  color: red;font-size: 50px;
+}
+        h3{
+            color: chartreuse;font-size: 30px;
+          }
+          
+         
+          #myID{
+            color: green;font-style: italic;
+          }
+
+          .second-heading{
+            color: magenta;font-size: medium;font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+
+          h3{
+            color:yellow; font-size: 40px;
+          } 
+
+*{
+  color: red;
+}
+
+li{
+  color: black;
+} 
+
+html{
+  color: brown;
+}
+
+h3{
+  color: orchid !important;
+}
+
+h3{
+  color: red;
+} */
+ 
+:root {
+  --text-color: blue; 
+  --font-size: 50px; 
+  --font-style: italic;
+  --mau-nen: aqua;
+   font-style: italic;
+  
+}
+
+h3 {
+    --H3: red; --loai-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; --kieu-font: normal;
+  color: var(--H3); font-family: var(--loai-font); font-style: var(--kieu-font); background-color: var(--mau-nen);
+}
+h4 {
+  color: var(--text-color); font-size: var(--font-size); font-style: var(--font-style);
+}
+ h5 {
+    --mau-chu: violet;
+    --co-chu: 70px;
+    --mau-nen5: blue;
+  color: var(--mau-chu); font-size: var(--co-chu); background-color: var(--mau-nen5);
+}
+
+/* #list1 {
+  color: orange; font-size: 20px;
+}
+*/
+h6 {
+ 
+  color: var(--text-color); font-style: var(--font-style); font-size: var(--font-size);
+}
+ 
+ html {
+            color: blueviolet;
+            font-size: 20px;
+         }
+
+         .box-cha {
+          border: 2px solid black;
+          width: 600px;
+         }
+
+         .box-con {
+          width: 50%;
+          border: 1px solid red;
+         }
+        
+        /* .van-ban {
+          font-size: 2rem;
+         } */
+        
+        .box-con {
+          font-size: 1.5rem;
+        }
+        .van-ban {
+          margin-left: 2em;
+        }
+
+
+
+        html, body {
+          margin: 0;
+        }
+       /* .header {
+          width: 100%;
+          height: 100vh;
+          background-image:
+       /*   url(https://static.vecteezy.com/system/resources/thumbnails/018/842/764/small/3d-star-icon-isolated-on-background-customer-rating-feedback-concept-3d-rendering-free-png.png), 
+         
+          url(https://www.citypng.com/public/uploads/preview/white-star-png-img-701751694532296t4i955smo5.png);
+         */
+         /* background: size 50%; */
+       /*  linear-gradient(90deg, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)), 
+         url(https://thuthuatnhanh.com/wp-content/uploads/2019/07/girl-xinh-dep-thanh-lich.jpg);
+       
+       
+       url(https://img.pikbest.com/wp/202342/repeat-pattern-seamless-utilizing-a-repeating-design-as-background-texture_9945059.jpg!w700wp);
+         background-size: auto auto;
+         background-repeat: repeat;
+        
+         */
+
+        
+.photo {
+  width: 100%;
+  height: 100vh;
+  background-image: 
+ 
+  linear-gradient(0, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), 
+   url(IMAGE/Fansipan.png);
+
+   background-size: auto auto;
+   background-repeat: no-repeat;
+}

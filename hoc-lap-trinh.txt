@@ -1,0 +1,4714 @@
+BUỔI 1
+PHẦN 1 — WEB THỰC RA LÀ GÌ?
+Khi anh mở một website, ví dụ:
+•	YouTube 
+•	Facebook 
+•	trang tin tức 
+•	web bán xe 😄 
+thì thật ra đang có chuyện gì xảy ra?
+Hãy tưởng tượng đơn giản thế này:
+Website = một tập tài liệu.
+Máy tính của anh có:
+trình duyệt web
+Ví dụ:
+•	Google Chrome 
+•	Microsoft Edge
+Trình duyệt có nhiệm vụ:
+đọc file web
+
+và hiển thị thành giao diện.
+Ví dụ cực đơn giản:
+
+Anh có file: <h1>Hello Web</h1>
+Trình duyệt đọc xong sẽ hiểu:
+À, đây là tiêu đề lớn.
+nên nó hiển thị:
+Hello Web
+to và đậm.
+
+Điều cực quan trọng:
+Web ban đầu thực chất chỉ là:
+các file văn bản.
+Ví dụ:
+HTML
+CSS
+JavaScript
+
+PHẦN 2 — HTML LÀ GÌ?
+HTML
+viết tắt của:
+HyperText Markup Language
+Giống như:
+Nếu website là căn nhà:
+HTML =
+khung nhà
+tường
+cửa
+nội dung
+
+HTML dùng để tạo:
+tiêu đề
+đoạn văn
+hình ảnh
+nút bấm
+danh sách
+bảng
+form
+
+Đây là điều cực quan trọng:
+Rất nhiều thẻ HTML có:
+thẻ mở
+nội dung
+thẻ đóng
+Ví dụ khác: <p>Hôm nay mình học web</p>
+Trong đó:
+<p>
+nghĩa là:
+paragraph(đoạn văn)
+
+PHẦN 4 — VÌ SAO TRÌNH DUYỆT HIỂU ĐƯỢC HTML?
+Đây là phần rất thú vị 😊
+Trình duyệt được lập trình sẵn để hiểu:
+h1 = tiêu đề lớn
+p = đoạn văn
+img = hình ảnh
+a = link
+Nghĩa là:
+HTML giống như:
+“quy ước chung”.
+Giống đèn giao thông:
+đỏ = dừng
+xanh = đi
+HTML cũng vậy:
+h1 = tiêu đề lớn
+p = đoạn văn
+
+HTML ưu tiên:
+Ý NGHĨA của nội dung.
+Khi anh viết: <h1>Xin chào</h1>
+thì:
+ý nghĩa thật sự là:
+"Đây là tiêu đề quan trọng nhất."
+Còn:
+việc chữ to đậm
+là do:
+trình duyệt tự định dạng mặc định.
+Đây là điều cực quan trọng:
+HTML mô tả:
+“nội dung này là cái gì”
+chứ không phải chủ yếu:
+“nó nhìn như thế nào”.
+Ví dụ đời thực:
+Một cuốn sách có:
+tên sách
+chương
+đoạn văn
+
+HTML cũng vậy:
+<h1> nghĩa là: tiêu đề chính
+<p> nghĩa là:đoạn văn
+Trình duyệt mặc định:
+làm tiêu đề to hơn
+đoạn văn nhỏ hơn
+để người dùng dễ đọc.
+
+Nhưng:
+dù nhìn thế nào,
+ý nghĩa HTML vẫn là:
+h1 = tiêu đề
+p = đoạn văn
+Đây gọi là:
+semantic HTML
+(HTML mang ý nghĩa nội dung)
+Khái niệm này cực kỳ quan trọng về sau.
+
+HTML tạo cấu trúc,
+trình duyệt đọc HTML,
+thẻ mang ý nghĩa,
+trình duyệt tự hiển thị theo quy ước.
+->Đó là nền móng rất quan trọng.
+HTML mô tả cấu trúc:
+tiêu đề
+đoạn văn
+hình ảnh
+video
+nút bấm
+bảng
+form
+menu
+nhiều thành phần khác
+Nói chính xác dễ hiểu hơn:
+HTML là:
+ngôn ngữ dùng để mô tả cấu trúc và ý nghĩa nội dung của trang web.
+
+“HTML là ngôn ngữ đánh dấu” → đánh dấu cái gì?
+“Đánh dấu”
+nghĩa là: gắn nhãn cho nội dung.
+Ví dụ đời thực: Anh có một văn bản: xin chào
+Nếu không đánh dấu, máy tính chỉ thấy: chữ bình thường.
+Nhưng khi viết: <h1>Xin chào</h1>
+thì giống như đang nói: Nội dung này là tiêu đề lớn nhất.
+Tức là:
+HTML dùng thẻ để: “đánh dấu vai trò/ý nghĩa” của nội dung.
+Ví dụ:
+Đây là tiêu đề: <h1>
+Đây là đoạn văn: <p>
+Đây là hình ảnh: <img>
+Nên:“Markup”
+(đánh dấu) có thể hiểu rất gần gũi là: “dán nhãn cho nội dung”.
+Ví dụ cực đời thực 😄
+Giống như:
+dán nhãn “HÀNG DỄ VỠ”
+dán nhãn “TÀI LIỆU QUAN TRỌNG”
+HTML cũng vậy:
+<h1> = “đây là tiêu đề quan trọng”.
+Bây giờ tới phần cực hay:anh thử bỏ </h1>
+và thấy:
+thẻ p nằm trong h1
+chữ vẫn to
+DevTools tự thêm </h1>
+Và:
+
+anh vừa chạm tới khái niệm:
+“lồng thẻ” (nesting)
+Khi anh viết:
+<h1>Xin chào, mình đang học web
+<p>Đây là trang web đầu tiên của mình</p>
+Trình duyệt hiểu kiểu:
+<h1>
+  Xin chào, mình đang học web
+  <p>Đây là trang web đầu tiên của mình</p>
+</h1>
+Tức là: thẻ p đang nằm bên trong h1.
+Vì: h1 chưa được đóng.
+Nên: trình duyệt nghĩ: “vẫn còn đang ở trong vùng h1”.
+Mà: h1 có kiểu mặc định:
+to
+đậm
+nên: thẻ p bên trong cũng bị ảnh hưởng.
+Và: DevTools tự thêm: </h1>
+vì trình duyệt cố:
+sửa HTML để cấu trúc hợp lý hơn.
+Điều này cực kỳ quan trọng:
+HTML có cấu trúc dạng cây.
+Ví dụ:
+<body>
+  <h1>
+    <p>
+Nghĩa là:
+thẻ này nằm trong thẻ kia
+giống:
+hộp lớn chứa hộp nhỏ
+Đây là nền tảng rất lớn cho:
+CSS
+JavaScript
+DOM
+React
+về sau.
+
+trong HTML chuẩn, “phần đầu” thường là: <head>
+Nó KHÔNG phải phần nhìn thấy trên web.
+Mà chứa:
+tiêu đề tab
+thông tin website
+link CSS
+cấu hình
+Còn phần nội dung hiển thị là: <body>
+Còn: header/footer (phần đầu giao diện/chân trang) là khái niệm khác.
+HTML dùng thẻ để:
+đánh dấu, gắn nhãn, mô tả nội dung.
+Ví dụ:<h1> <p> <img>
+Đây là: “markup”(đánh dấu).
+Semantic HTML = chất lượng ý nghĩa của thẻ
+Nghĩa là: Thẻ semantic là: thẻ có ý nghĩa rõ ràng về nội dung. Ví dụ:
+<h1> <p> <header> <footer> <nav> <article>
+Khi nhìn vào: <nav> thì:
+trình duyệt, lập trình viên, công cụ tìm kiếm đều hiểu: “đây là vùng menu điều hướng”.
+Trong khi: <div> gần như chỉ có nghĩa:“một khối chứa chung chung”.
+Khác biệt quan trọng nhất:
+Markup HTML = HTML dùng thẻ để đánh dấu nội dung.
+Semantic HTML = dùng loại thẻ có ý nghĩa đúng với nội dung.
+Ví dụ đời thực 😄 “Hộp” giống: <div>
+Còn: “Hộp đựng giày” “Hộp đựng sách” “Hộp đồ nghề” giống semantic HTML.
+Tức là: semantic giúp:
+mô tả đúng bản chất nội dung hơn.
+Đây là điều cực quan trọng về sau:
+semantic tốt sẽ giúp: SEO tốt hơn, accessibility tốt hơn, code dễ đọc hơn, dễ bảo trì hơn.
+trong HTML, một số thẻ: KHÔNG được phép chứa một số thẻ khác. Cụ thể: <p> là: paragraph
+Mà:<h1> là: heading lớn.
+HTML quy định:
+heading không được nằm trong paragraph. Nên: khi trình duyệt gặp:
+<p>
+<h1>
+nó hiểu: “à, đoạn văn phải kết thúc trước”.
+Vì vậy: DevTools tự sửa thành kiểu:
+<p>Đây là trang web đầu tiên của mình</p>
+<h1>Xin chào, mình đang học web</h1>
+Đây là:
+cơ chế parser của trình duyệt.
+Điều này rất quan trọng:
+Không phải mọi thẻ đều lồng tùy ý.
+HTML có: quy tắc cấu trúc.
+MARKUP là: việc dán nhãn lên hộp. Ví dụ: [ HỘP ]
+SEMANTIC là: dán nhãn cụ thể hơn. Ví dụ: [ HỘP ĐỰNG GIÀY ] hoặc: [ HỘP ĐỰNG SÁCH ]
+Khác biệt nằm ở: mức độ ý nghĩa.
+Vậy: “Markup” thực chất là gì?
+Markup = hành động dùng thẻ để:
+đánh dấu, bao nội dung lại, nói cho trình duyệt biết: “nội dung này là loại gì”
+Ví dụ: Anh có text thường: Xin chào
+Máy tính chưa biết: đây là tiêu đề? đoạn văn? menu? nút?
+Khi viết: <h1>Xin chào</h1>
+thì anh đang: “đánh dấu”
+nội dung: Xin chào là: tiêu đề lớn.
+Đây chính là: markup.
+Vậy: “đánh dấu cái gì?”
+→ đánh dấu: NỘI DUNG.
+“đánh dấu ở đâu?” → đánh dấu:TRONG FILE HTML.
+“đánh dấu bằng gì?” → bằng: TAGS (thẻ).
+Ví dụ:<h1> <p> <img>
+Bây giờ tới:
+semantic HTML Đây là tầng nghĩa sâu hơn.
+Semantic hỏi rằng: “Loại thẻ anh dùng có diễn tả đúng ý nghĩa nội dung không?”
+Ví dụ:
+<h1>Giới thiệu bản thân</h1>
+Đây là: semantic tốt.
+Vì: h1 thật sự là: tiêu đề.
+Nhưng nếu anh viết: <div>Giới thiệu bản thân</div>
+Thì: trình duyệt vẫn hiển thị được.
+Nhưng: semantic kém hơn. Vì:
+div không nói rõ: nội dung này là gì.
+
+4. Đây là chỗ anh đang thắc mắc:
+“Tại sao h1 và p xuất hiện ở cả markup lẫn semantic?” Vì:
+chúng vừa là markup,
+vừa là semantic tags.
+Em giải thích cực rõ nhé:
+Khi anh viết:
+<h1>Xin chào</h1>
+THÌ:
+Góc nhìn MARKUP:
+
+anh đang:
+
+dùng thẻ để đánh dấu nội dung.
+Góc nhìn SEMANTIC:
+
+anh đang:
+
+chọn đúng loại thẻ mang ý nghĩa “tiêu đề”.
+Nghĩa là:
+cùng một thẻ
+
+có thể được nhìn theo:
+
+góc độ markup
+góc độ semantic.
+Ví dụ đời thực 😄
+
+Một người có thể:
+
+vừa là “con người”
+vừa là “giáo viên”.
+
+Không mâu thuẫn.
+
+5. Vậy:
+div và span khác gì?
+
+Ví dụ:
+
+<div>
+<span>
+Chúng cũng là markup.
+
+Vì:
+
+vẫn đánh dấu nội dung,
+vẫn bao nội dung.
+Nhưng:
+
+semantic yếu hơn.
+
+Vì:
+
+chúng không nói rõ:
+đây là tiêu đề?
+menu?
+bài viết?
+đoạn văn?
+Nên:
+semantic HTML
+
+là:
+
+dùng các thẻ có ý nghĩa rõ ràng khi phù hợp.
+6. Em tóm lại cực ngắn gọn nhé
+MARKUP
+
+= cơ chế dùng thẻ để đánh dấu nội dung.
+
+Ví dụ:
+
+<h1>
+<p>
+<div>
+SEMANTIC
+
+= mức độ “có ý nghĩa rõ ràng” của thẻ.
+
+Ví dụ:
+
+semantic mạnh:
+<h1>
+<p>
+<nav>
+<header>
+<footer>
+semantic yếu/chung chung:
+<div>
+<span>
+Điều rất quan trọng:
+Semantic không phải để “trang trí”.
+
+Mà giúp:
+
+trình duyệt hiểu cấu trúc,
+SEO tốt hơn,
+screen reader hỗ trợ người khiếm thị,
+code dễ đọc hơn.
+Với ví dụ:
+<h1>Xin chào</h1>
+Đúng là:
+đây là MARKUP
+
+Vì:
+anh đang dùng thẻ:
+
+<h1>
+
+để:
+
+đánh dấu nội dung.
+Nhưng phần:
+
+“semantic thì đây là câu biểu cảm, lời chào”
+
+thì chưa chính xác lắm 😊
+
+Semantic ở đây KHÔNG quan tâm:
+câu đó vui hay buồn,
+là lời chào hay lời cảm thán.
+Semantic quan tâm:
+VAI TRÒ của nội dung trong trang web.
+Nên với:
+<h1>Xin chào</h1>
+
+semantic nghĩa là:
+
+Nội dung này là tiêu đề chính của trang/phần nội dung.
+Tức là:
+semantic nằm ở:
+THẺ được chọn,
+
+không nằm ở cảm xúc câu chữ.
+
+Ví dụ:
+<h1>Giới thiệu bản thân</h1>
+
+semantic:
+
+đây là tiêu đề chính.
+<p>Hôm nay trời đẹp</p>
+
+semantic:
+
+đây là đoạn văn.
+Dù nội dung bên trong là gì:
+lời chào,
+câu buồn,
+chuyện xe cộ 😄
+hay công thức toán
+
+thì:
+semantic chủ yếu vẫn do:
+
+loại thẻ quyết định.
+Em sửa lại cách hiểu của anh thành phiên bản rất chuẩn nhé:
+Với:
+<h1>Xin chào</h1>
+MARKUP:
+
+Dùng thẻ HTML để đánh dấu nội dung.
+
+SEMANTIC:
+
+Dùng thẻ h1 để cho biết:
+
+“đây là tiêu đề quan trọng nhất”.
+Còn:
+Xin chào
+
+chỉ là:
+
+nội dung được đặt bên trong thẻ.
+Đây là chỗ rất nhiều người nhầm 😄
+
+Họ tưởng:
+semantic nằm ở câu chữ.
+
+Nhưng thực ra:
+
+semantic HTML chủ yếu nằm ở Ý NGHĨA CỦA THẺ.
+
+Trước tiên:
+phần anh liên hệ giữa:
+thiếu </body>
+và
+thiếu dấu >
+
+là RẤT HAY 👏
+
+Vì:
+anh bắt đầu nhận ra:
+
+không phải lỗi nào parser cũng cứu được.
+Thiếu:
+</body>
+
+→ parser thường:
+
+đoán được ý định.
+
+Nó nghĩ:
+
+"À, chắc người viết quên đóng body."
+
+nên tự sửa.
+
+Nhưng:
+<h1 Xin chào
+Đây là lỗi khác hẳn.
+
+Vì:
+parser không còn phân biệt rõ:
+
+đâu là tên thẻ,
+đâu là thuộc tính,
+đâu là nội dung.
+Nghĩa là:
+cấu trúc cú pháp cơ bản bị phá vỡ.
+
+Nên:
+parser khó hiểu được ý định thật sự.
+
+Đây là khác biệt rất quan trọng:
+Một số lỗi:
+
+parser còn đoán được.
+
+Một số lỗi:
+làm parser “mất khả năng hiểu cấu trúc”.
+
+Bây giờ tới phần cực quan trọng:
+PARSER THỰC SỰ LÀ GÌ?
+
+Anh hỏi rất đúng 👏
+
+Và:
+
+nhiều người dùng parser nhiều năm nhưng không hiểu bản chất.
+Em giải thích cực chậm nhé:
+Parser
+
+KHÔNG phải:
+
+“bộ sửa lỗi”.
+
+Mặc dù:
+nó có thể sửa vài lỗi.
+
+Parser thực chất là:
+bộ phân tích cú pháp.
+“Phân tích cú pháp”
+
+nghĩa là:
+
+đọc và hiểu cấu trúc của tài liệu/code.
+Ví dụ đời thực 😄
+
+Anh đọc câu:
+
+Tôi đang học web
+Não anh tự hiểu:
+đâu là chủ ngữ,
+động từ,
+ý nghĩa câu.
+Parser của trình duyệt cũng vậy.
+
+Nó đọc HTML và cố hiểu:
+
+- đây là thẻ gì?
+- bắt đầu ở đâu?
+- kết thúc ở đâu?
+- thẻ nào nằm trong thẻ nào?
+Ví dụ:
+<h1>Hello</h1>
+Parser hiểu:
+1. mở thẻ h1
+2. nội dung = Hello
+3. đóng thẻ h1
+Sau đó:
+
+parser tạo ra:
+
+cấu trúc cây HTML
+
+(DOM)
+
+Đây là điều rất quan trọng:
+Parser trước tiên là:
+“người đọc và phân tích cấu trúc”.
+Còn:
+việc tự sửa lỗi
+
+chỉ là:
+
+một khả năng bổ sung.
+3. Em lấy ví dụ rất hay nhé 😄
+Hãy tưởng tượng:
+
+parser giống:
+
+một giáo viên chấm bài viết.
+Nếu học sinh viết:
+Toi dang hoc web
+Giáo viên vẫn hiểu được:
+
+dù thiếu dấu.
+
+Nhưng nếu viết:
+hoc dang toi web
+Thì:
+
+giáo viên bắt đầu khó hiểu 😄
+
+Parser HTML cũng vậy.
+Và đây là sự thật thú vị:
+Web hiện đại hoạt động được một phần rất lớn nhờ:
+browser parser cực kỳ “bao dung”.
+Vì:
+
+nếu browser quá nghiêm khắc:
+
+hàng triệu website cũ sẽ hỏng 😄
+nếu không có parser
+
+thì:
+
+trình duyệt còn không hiểu HTML để hiển thị nữa 😊
+Vì parser là:
+bộ phận đọc và phân tích HTML.
+“Tự sửa”
+
+chỉ là:
+
+một phần trong quá trình cố hiểu tài liệu.
+5. Điều cực kỳ quan trọng anh vừa chạm tới
+Có sự khác nhau giữa:
+A. Syntax error
+
+(lỗi cú pháp)
+
+và
+
+B. Structure error
+
+(lỗi cấu trúc)
+
+Ví dụ syntax error:
+<h1 Hello
+
+→ parser khó hiểu cú pháp.
+
+Ví dụ structure error:
+<body>
+<h1>Hello
+
+thiếu đóng thẻ.
+
+Syntax error thường nguy hiểm hơn.
+Đây là tư duy rất tốt cho tương lai:
+JavaScript
+React
+backend
+debugging
+
+ul có padding-left: 40
+Đây là lý do:
+
+list bị:
+thụt vào.
+Browser mặc định: chừa khoảng trống cho marker. Nghĩa là: [ khoảng marker ] [ nội dung ]
+Đây là: default browser CSS.
+“Thử 1”
+cực kỳ thú vị 😊
+
+Anh viết:
+
+<li>HTML</li>
+<li>CSS</li>
+
+không có: <ul>
+Và:
+
+browser:
+
+vẫn hiển thị,
+nhưng không có bullet.
+Điều này rất quan trọng:
+Browser vẫn render được.
+Nhưng:
+
+semantic structure: không hợp lệ/chưa đầy đủ. Vì: <li> đáng lẽ phải thuộc: ul ol
+Đây là khác biệt cực quan trọng: Browser rendering ≠ semantic correctness.
+
+1. Trước tiên:
+TAG là gì?
+
+Tag dùng để:
+
+định nghĩa loại element.
+Nghĩa là:
+
+browser nhìn tag để hiểu:
+
+"Đây là cái gì?"
+Ví dụ:
+<h1>
+
+Browser hiểu:
+
+"Đây là tiêu đề lớn."
+<p>
+
+Browser hiểu:
+
+"Đây là đoạn văn."
+<a>
+
+Browser hiểu:
+
+"Đây là liên kết."
+Nghĩa là:
+tag xác định:
+BẢN CHẤT / VAI TRÒ của element.
+2. ATTRIBUTE là gì?
+
+Attribute dùng để:
+
+bổ sung thông tin / hành vi cho tag.
+Browser nhìn attribute để hiểu:
+"Nó hoạt động cụ thể thế nào?"
+Ví dụ:
+<a href="https://google.com">
+Browser hiểu:
+"Đây là liên kết.
+Và khi click thì đi tới Google."
+Nghĩa là:
+<a>
+
+=
+nó là gì.
+
+href
+
+=
+nó trỏ đi đâu.
+Attribute KHÔNG đổi bản chất tag.
+Ví dụ:
+Xe đỏ
+Xe xanh
+Xe đen
+Dù màu khác:
+
+nó vẫn là:
+
+ô tô.
+Tương tự:
+<a href="google.com">
+
+và:
+
+<a href="youtube.com">
+Dù href khác:
+
+nó vẫn là:
+
+link (a).
+4. Một ví dụ cực kỳ dễ hiểu khác 😊
+Tag:
+<img>
+
+=
+
+ảnh.
+Nhưng:
+
+ảnh nào?
+
+Attribute:
+src="cat.jpg"
+
+=
+
+ảnh con mèo.
+Nghĩa là:
+tag:
+"Đây là ảnh."
+attribute:
+"Ảnh nào?"
+5. Điều cực quan trọng 😊
+Tag tạo:
+structure / meaning.
+Attribute tạo:
+configuration / behavior / details.
+6. Liên hệ với:
+<a href="https://google.com">
+Tag:
+<a>
+
+=
+
+đây là link.
+Attribute:
+href="https://google.com"
+
+=
+
+link dẫn tới đâu.
+Và câu trả lời là:
+Tag
+
+=
+định nghĩa:
+
+“nó là gì”.
+Attribute
+
+=
+mô tả:
+
+“chi tiết của nó”.
+
+1. Trước tiên:
+“void element” thực sự nghĩa là gì?
+
+KHÔNG phải:
+
+“không có thông tin”.
+Mà nghĩa là:
+không có nội dung con bên trong
+
+(no children content).
+
+Đây là điểm QUAN TRỌNG 😊
+Ví dụ:
+<p>Hello</p>
+Thẻ:
+<p>
+
+có:
+
+nội dung nằm giữa tag mở và tag đóng.
+Browser hiểu:
+paragraph
+ └── text: Hello
+Nhưng:
+<img>
+
+KHÔNG hoạt động kiểu đó.
+
+Nó không chứa:
+<img>
+    something
+</img>
+HTML không cho phép 😊
+2. Điều QUAN TRỌNG:
+attribute KHÔNG phải “nội dung con”.
+Ví dụ:
+<img src="car.jpg" alt="Xe">
+Trong đó:
+src
+
+và
+
+alt
+
+chỉ là:
+
+thông tin mô tả thêm cho element.
+Chúng KHÔNG phải:
+content nằm bên trong element.
+Giống như:
+Một chiếc hộp
+Attribute giống:
+nhãn dán bên ngoài hộp.
+
+Ví dụ:
+
+màu đỏ,
+nặng 5kg,
+gửi Hà Nội.
+Nhưng:
+
+bên trong hộp:
+
+vẫn rỗng 😊
+3. Đây là khác biệt cực kỳ quan trọng:
+A. Nội dung con (children content)
+
+Ví dụ:
+
+<p>Hello</p>
+Hello
+
+=
+
+content thật sự nằm bên trong p.
+Browser tạo cây:
+p
+ └── text node: Hello
+B. Attribute
+
+Ví dụ:
+
+<img src="car.jpg">
+Browser hiểu:
+img
+ └── src = "car.jpg"
+Không có:
+text node
+child node
+paragraph node
+
+bên trong 😊
+
+4. Vì sao:
+<img> là void element?
+
+Vì:
+
+nó không có vùng:
+“mở ra để chứa content”.
+Nghĩa là:
+
+browser không mong đợi:
+
+<img>
+   something
+</img>
+Thay vào đó:
+
+toàn bộ hành vi của img được điều khiển bằng:
+
+attributes.
+
+Ví dụ:
+
+src
+alt
+width
+height
+<p>Hello</p>
+“Hello”
+
+=
+content thật sự.
+
+Nhưng:
+<img>
+
+không có vùng để chứa:
+
+Hello
+Mọi thông tin của img phải đi qua:
+attributes.
+6. Một ví dụ cực dễ hiểu 😊
+<p>
+
+giống:
+
+một cái hộp mở nắp.
+
+Ta có thể bỏ vào:
+
+text,
+tag khác,
+nội dung.
+<img>
+
+giống:
+
+một thiết bị máy chiếu ảnh.
+
+Nó không chứa nội dung bên trong.
+
+Nó chỉ cần:
+nguồn ảnh,
+mô tả ảnh,
+kích thước.
+Tức là:
+cấu hình bằng attribute,
+
+không chứa content thật sự.
+
+7. Kết luận cực kỳ quan trọng 😊
+Void element KHÔNG có nghĩa:
+“không có dữ liệu”.
+Mà nghĩa là:
+không có children content giữa opening và closing tag.
+Và:
+attribute
+
+KHÔNG được xem là:
+
+content con.
+Đây là lý do:
+<img src="car.jpg" alt="car">
+
+vẫn là:
+
+void element hoàn chỉnh
+“img có content box”
+
+nhưng vẫn là void element?
+
+👏👏👏
+Đây là câu hỏi rất sâu.
+
+Câu trả lời:
+“content box”
+
+KHÔNG đồng nghĩa:
+
+“children content HTML”.
+Đây là 2 khái niệm khác nhau 😊
+A. HTML content
+
+(lúc nãy mình nói)
+
+Ví dụ:
+
+<p>Hello</p>
+Hello
+
+=
+
+nội dung con trong DOM.
+img:
+
+KHÔNG có kiểu content này.
+
+Nên:
+
+nó vẫn là:
+
+void element.
+B. Visual content
+
+(content hiển thị trên màn hình)
+
+Ví dụ:
+
+ảnh,
+video,
+canvas.
+img có:
+visual content.
+Browser phải dành:
+chiều rộng,
+chiều cao,
+vùng hiển thị.
+Nên:
+
+box model vẫn có:
+
+content area.
+Đây là điểm cực kỳ quan trọng 😊
+Nghĩ đơn giản:
+<img>
+
+không chứa:
+
+text nodes
+child tags
+Nhưng:
+
+nó vẫn hiển thị:
+
+hình ảnh.
+Nên:
+
+browser vẫn cần:
+
+vùng content để render ảnh.
+5. Đây là khác biệt rất sâu 😊
+HTML content
+
+=
+
+nội dung DOM.
+Visual content
+
+=
+
+nội dung hiển thị/rendering.
+img:
+không có HTML content,
+nhưng có visual content.
+Nên:
+vừa là void element,
+vừa có content box.
+vì sao ảnh lớn làm phần sau xuống dòng?
+
+👏👏👏
+Đây là:
+
+kiến thức layout thật sự.
+Đúng:
+img là inline element.
+
+NHƯNG:
+
+inline element vẫn phải đủ chỗ ngang.
+Browser layout kiểu này:
+[ phần tử 1 ][ phần tử 2 ][ phần tử 3 ]
+Nếu:
+
+không đủ chiều ngang:
+
+browser tự wrap xuống dòng 😊
+Giống text:
+aaaaaaaaaaaaaaaaaaaa
+
+dài quá:
+→ xuống dòng.
+
+5. Với ảnh phong cảnh
+
+Ảnh quá rộng.
+
+Nó chiếm gần hết:
+chiều ngang viewport.
+Nên:
+
+ảnh tiếp theo:
+
+không còn chỗ đứng cùng dòng.
+Browser buộc phải:
+đẩy xuống dòng dưới.
+Đây gọi là:
+inline wrapping.
+Không phải:
+
+“browser cấm hiển thị cùng hàng”.
+
+Mà là:
+thuật toán layout:
+không đủ không gian ngang.
+6. Điều rất quan trọng 😊
+
+Nhiều người nghĩ:
+
+inline = luôn luôn cùng hàng
+KHÔNG 😊
+Đúng phải là:
+inline = cố gắng nằm cùng hàng
+nếu còn đủ chỗ.
+Nếu không đủ:
+sẽ wrap xuống dòng.
+Đây là nền móng cho:
+text wrapping,
+inline layout,
+responsive design,
+flexbox,
+CSS layout engine.
+
+tag dùng để:
+định nghĩa loại element,
+vai trò,
+semantic meaning,
+cấu trúc nội dung.
+Ví dụ:
+<h1>
+
+=
+tiêu đề chính.
+
+<p>
+
+=
+đoạn văn.
+
+<a>
+
+=
+liên kết.
+attribute:
+bổ sung thông tin,
+cấu hình hành vi,
+mô tả chi tiết cho element.
+Ví dụ:
+<a href="google.com">
+a
+
+=
+link.
+
+href
+
+=
+link đi đâu.
+
+3. Chỗ này:
+
+“không phải tag nào cũng có attribute”
+
+ĐÚNG 😊
+Vì:
+
+nhiều tag:
+
+hoạt động được ngay,
+không cần cấu hình thêm.
+
+Ví dụ:
+
+<p>Hello</p>
+Nhưng:
+
+một số tag gần như:
+
+cần attribute để có ý nghĩa.
+
+Ví dụ:
+
+<img>
+
+nếu không có:
+
+src
+
+thì:
+
+không biết hiển thị ảnh nào 😊
+4. Chỗ này:
+
+“Những tag không thể chủ động viết content theo kiểu <tag>content</tag> thì gọi là void element”
+
+Anh đang hiểu rất đúng hướng 👍
+Chính xác hơn:
+Void element:
+không được phép có children content bên trong.
+Nghĩa là:
+
+❌ Không hợp lệ:
+
+<img>Hello</img>
+Vì:
+
+img
+không có vùng chứa content con.
+img:
+không có DOM content,
+nhưng có rendered visual content.
+Đây là lý do:
+vẫn có box,
+vẫn có width/height,
+vẫn hiển thị ảnh.
+6. Chỗ này:
+
+“hr là void element nhưng là block element”
+
+CHÍNH XÁC 👏
+Đây là 2 khái niệm khác nhau:
+A. Void element
+
+=
+có children hay không.
+
+B. Block/inline
+
+=
+cách layout hiển thị.
+
+Nên:
+<hr>
+
+vừa:
+
+là void element,
+vừa là block element.
+các tag có children:
+
+vẫn có thể có attribute.
+
+Ví dụ:
+
+<p class="text">
+
+hoặc:
+
+<h1 id="title">
+Nghĩa là:
+có children hay không
+
+KHÔNG quyết định:
+
+có attribute hay không.
+Mà:
+
+attribute là khả năng bổ sung thông tin cho hầu hết element 😊
+
+Nhưng:
+với void element,
+
+attribute thường quan trọng hơn nhiều.
+
+Ví dụ:
+
+img
+input
+source
+Vì:
+
+chúng gần như hoạt động dựa vào attribute.
+“Ai là người hiểu HTML?”
+
+và:
+
+“HTML tự hoạt động hay browser làm việc đó?”
+
+Đây là bản chất của web 😊
+
+1. Câu trả lời ngắn gọn trước:
+File HTML:
+KHÔNG tự hiểu gì cả.
+Chính:
+trình duyệt (browser)
+
+mới là thứ:
+
+đọc,
+phân tích,
+hiểu,
+diễn giải,
+hiển thị HTML.
+HTML file chỉ là:
+dữ liệu văn bản thuần (text).
+Ví dụ:
+
+File:
+
+<h1>Hello</h1>
+Bản thân file:
+
+KHÔNG biết:
+
+h1 là gì,
+chữ to hay nhỏ,
+màu gì,
+semantic gì.
+Nó chỉ chứa:
+ký tự text.
+Giống như:
+
+một tờ giấy có viết:
+
+<h1>Hello</h1>
+Tờ giấy:
+
+không “hiểu”.
+
+Người đọc:
+
+mới hiểu 😊
+
+2. Trong web:
+“người đọc”
+
+chính là:
+
+browser.
+
+Ví dụ:
+
+Google Chrome
+Mozilla Firefox
+Safari
+3. Browser làm gì?
+
+Khi mở file HTML:
+
+browser sẽ:
+
+đọc text,
+parser phân tích,
+nhận diện tag,
+xây DOM tree,
+áp dụng default styles,
+render ra màn hình.
+Đây là quy trình thật 😊
+4. Ví dụ cụ thể
+
+Anh viết:
+
+<h1>Hello</h1>
+Browser đọc được:
+Tag:
+<h1>
+Browser tra trong:
+“quy tắc HTML chuẩn”
+
+và hiểu:
+
+Đây là heading level 1.
+Sau đó browser:
+tạo DOM node,
+áp dụng style mặc định:
+font-size lớn,
+bold,
+margin.
+Cuối cùng:
+
+mới hiển thị 😊
+
+5. Điều QUAN TRỌNG 😊
+HTML không “chạy”.
+HTML chỉ:
+mô tả cấu trúc.
+Browser mới là:
+engine xử lý.
+Ví dụ đời thực 😊
+HTML file
+
+giống:
+
+bản thiết kế kiến trúc.
+Browser
+
+giống:
+
+đội xây dựng.
+Bản thiết kế:
+
+không tự xây nhà 😊
+
+Người thi công:
+
+mới đọc bản thiết kế và xây.
+
+6. Điều anh đang băn khoăn:
+
+“chức năng của file HTML”
+và
+“browser đọc HTML”
+
+Thật ra:
+chúng liên quan nhưng KHÔNG giống nhau.
+A. HTML specification
+
+(chuẩn HTML)
+
+định nghĩa:
+
+<h1> là heading
+<p> là paragraph
+<a> là hyperlink
+<img> là image
+Đây là:
+quy tắc/ngôn ngữ HTML.
+B. Browser implementation
+
+Browser đọc quy tắc đó và:
+
+hiện thực hóa,
+phân tích,
+render.
+Nghĩa là:
+HTML specification
+
+=
+luật chơi.
+
+Browser
+
+=
+người thực hiện luật chơi.
+
+7. Ví dụ cực dễ hiểu 😊
+Luật giao thông nói:
+Đèn đỏ phải dừng.
+Nhưng:
+
+luật giao thông:
+KHÔNG tự làm xe dừng 😊
+
+Người lái xe:
+
+mới đọc luật và thực hiện.
+
+Tương tự:
+HTML specification nói:
+<h1> là heading lớn.
+Browser:
+
+mới là thứ:
+
+thực hiện việc hiển thị heading lớn.
+8. Điều rất quan trọng nữa 😊
+
+Các browser:
+
+Chrome,
+Firefox,
+Safari
+
+đều phải cố:
+
+tuân theo chuẩn HTML.
+Nhưng:
+
+đôi khi vẫn khác nhau chút ít:
+
+spacing,
+rendering,
+parser behavior,
+default styles.
+Đây là lý do:
+
+frontend developer phải:
+
+test nhiều browser 😊
+9. Tóm tắt cực kỳ quan trọng 😊
+HTML file:
+chỉ là text,
+chứa markup.
+HTML specification:
+định nghĩa ý nghĩa tag,
+định nghĩa luật.
+Browser:
+đọc HTML,
+parser phân tích,
+hiểu semantic,
+render giao diện.
+Nghĩa là:
+browser mới là “người hiểu HTML”.
+1. HTML specification
+
+(chuẩn HTML)
+
+giống:
+
+bộ luật/quy chuẩn.
+Nó định nghĩa:
+<h1> là gì
+<p> là gì
+<a> là gì
+browser phải xử lý thế nào
+Nó KHÔNG trực tiếp hiển thị web.
+2. Browser
+
+giống:
+
+cơ quan thực thi luật.
+Browser đọc:
+chuẩn HTML,
+CSS,
+JavaScript,
+
+rồi:
+
+phân tích,
+xử lý,
+render.
+Tức là:
+
+browser là:
+
+“người thực hiện quy chuẩn”.
+3. Nhưng:
+HTML file của lập trình viên
+
+còn là một phần riêng nữa 😊
+
+Anh viết:
+<h1>Hello</h1>
+Đây giống:
+một văn bản được viết theo luật chuẩn.
+Browser đọc văn bản đó và:
+hiểu,
+xử lý,
+hiển thị.
+Nên:
+
+ta có thể liên hệ kiểu này 😊
+
+HTML Specification
+
+=
+
+bộ luật.
+Lập trình viên viết file HTML
+
+=
+
+người viết tài liệu theo luật.
+Browser
+
+=
+
+cơ quan thực thi/diễn giải luật.
+4. Ví dụ rất sát 😊
+Luật nói:
+Tiêu đề cấp 1 phải được xem là tiêu đề chính.
+Người viết tài liệu:
+
+ghi:
+
+<h1>Tin nóng</h1>
+Browser đọc và hiểu:
+À, đây là tiêu đề chính.
+Ta sẽ hiển thị to, đậm.
+5. Một điểm cực hay trong ví dụ của anh 😊
+
+Anh nói:
+
+“người dân tuân thủ”
+
+Điều này cũng có nét tương đồng 👍
+
+Vì:
+
+browser phải:
+
+cố tuân theo chuẩn HTML.
+Nhưng:
+
+cũng giống đời thực 😊
+
+Mỗi browser:
+Chrome,
+Firefox,
+Safari
+
+có thể:
+
+diễn giải hơi khác,
+xử lý khác chút,
+default style khác chút.
+Giống:
+
+nhiều nơi thực thi luật hơi khác nhau 😄
+div và span
+
+Đây là:
+
+2 thẻ quan trọng bậc nhất của frontend 😊
+
+Sau này:
+
+CSS,
+layout,
+component,
+React,
+UI,
+app mobile web
+
+đều dùng cực nhiều.
+
+1. Ý tưởng cốt lõi 😊
+
+Trước giờ anh dùng:
+
+h1,
+p,
+table,
+ul...
+
+→ đều là:
+
+semantic tag
+
+(có ý nghĩa sẵn)
+
+Nhưng:
+
+đôi khi ta chỉ muốn:
+
+gom nhóm,
+chia vùng,
+bọc nội dung,
+phục vụ layout.
+Khi đó:
+
+ta dùng:
+
+div
+span
+2. <div>
+div:
+
+=
+
+khối chứa (container)
+Đặc điểm:
+block element,
+chiếm nguyên dòng,
+thường dùng để chia khu vực.
+Ví dụ đời thực 😊
+[ Header ]
+[ Menu ]
+[ Content ]
+[ Footer ]
+Thực tế:
+
+rất nhiều website là:
+
+vô số div lồng nhau 😊
+3. <span>
+span:
+
+=
+
+vùng nhỏ inline
+Đặc điểm:
+inline element,
+không xuống dòng,
+dùng để bọc text nhỏ.
+Ví dụ:
+<p>Mình thích <span>HTML</span></p>
+phân biệt giữa:
+“loại element”
+và
+“kích thước box thực tế hiển thị”.
+
+Đây là tư duy frontend rất quan trọng 😊
+
+1. Điều đầu tiên 😊
+<span>
+  <h1>Hello</h1>
+</span>
+Thực ra:
+KHÔNG hợp lệ theo semantic HTML chuẩn.
+Vì:
+span
+inline container.
+Còn:
+h1
+block-level content.
+Theo quy tắc HTML:
+
+inline element:
+
+không nên chứa block element 😊
+2. Nhưng:
+
+browser vẫn render được.
+
+Vì:
+
+parser/browser rất “dễ tính” 😊
+
+Nó sẽ:
+
+cố sửa DOM,
+cố hiển thị hợp lý nhất có thể.
+3. Điều QUAN TRỌNG 😊
+
+Anh đang thấy:
+
+“span bao sát h1 nên giống block”
+
+CẢM NHẬN NÀY RẤT HỢP LÝ 👍
+
+Nhưng:
+
+cần tách 2 thứ khác nhau 😊
+A. “span là loại gì?”
+
+Về bản chất:
+
+span = inline element
+
+Điều này:
+
+KHÔNG đổi.
+B. “span đang render box thế nào?”
+
+Khi chứa:
+
+<h1>
+
+browser phải:
+
+cố cứu layout,
+điều chỉnh formatting context.
+Nên:
+
+span có thể:
+
+trông như block,
+highlight lớn,
+bao vùng rộng.
+Nhưng:
+đó KHÔNG có nghĩa:
+span đã biến thành block element.
+4. Ví dụ đời thực 😊
+
+Giống như:
+
+Một chiếc hộp nhỏ inline
+nhưng bên trong anh nhét vật cực lớn.
+Kết quả:
+hộp nhìn to bất thường,
+layout thay đổi,
+nhưng bản chất hộp không đổi 😊
+5. Điều rất quan trọng 😊
+“display type”
+
+và
+
+“rendered size”
+
+KHÔNG phải lúc nào cũng giống nhau.
+
+Inline element:
+
+vẫn có thể:
+
+cao,
+rộng,
+bất thường,
+
+nếu content bên trong gây ảnh hưởng 😊
+
+6. DevTools làm anh “ảo giác” 😊
+
+Vì:
+DevTools highlight:
+
+vùng render cuối cùng.
+Nó KHÔNG luôn phản ánh:
+semantic hợp lệ hay không.
+Browser đang:
+cố render thứ hợp lý nhất có thể 😊
+DevTools hiển thị:
+<span>
+  <h1>Hello</h1>
+</span>
+Điều đó:
+KHÔNG có nghĩa:
+“HTML này semantic hợp lệ”
+DevTools đang cho anh xem:
+DOM tree cuối cùng
+
+sau khi parser/browser xử lý 😊
+
+2. Điều QUAN TRỌNG 😊
+
+Browser hiện đại:
+
+rất “dễ tính”.
+Nó thường:
+KHÔNG phá trang,
+KHÔNG báo lỗi chết,
+cố render bằng được.
+Nên:
+
+nhiều HTML “sai chuẩn”
+vẫn:
+
+chạy,
+hiển thị,
+tồn tại trong DOM 😊
+3. Với trường hợp này 😊
+<span>
+  <h1>Hello</h1>
+</span>
+Browser có thể:
+vẫn giữ cấu trúc đó trong DOM,
+nhưng layout/rendering sẽ được điều chỉnh đặc biệt.
+Vì:
+
+h1
+mang:
+
+block formatting behavior mạnh hơn.
+4. Đây là điểm rất quan trọng 😊
+DOM tree
+
+KHÔNG hoàn toàn giống:
+
+semantic validity.
+Tức là:
+
+Một thứ có thể:
+
+tồn tại trong DOM,
+render được,
+
+nhưng:
+
+vẫn là HTML không chuẩn semantic 😊
+5. Ví dụ đời thực 😊
+
+Giống như:
+
+Một chiếc xe chở quá tải.
+Xe:
+vẫn chạy,
+vẫn tồn tại trên đường.
+Nhưng:
+không đúng chuẩn,
+không tối ưu,
+không nên làm 😊
+6. Browser ưu tiên điều gì?
+
+Web browser có triết lý:
+
+“Hiển thị được còn hơn vỡ toàn bộ website.”
+Vì:
+
+internet có vô số HTML viết sai 😊
+
+Nếu browser quá nghiêm:
+web sẽ hỏng hàng loạt.
+1. Placeholder có giống attribute không?
+KHÔNG PHẢI “giống” 😊
+
+mà:
+
+placeholder chính là một attribute 👍
+Ví dụ:
+<input placeholder="Nhập tên">
+Trong đó:
+Thành phần	Vai trò
+input	         tag
+placeholder	attribute
+"Nhập tên"	value của attribute
+Vì:
+input là void element.
+Nó không chứa text kiểu:
+<input>Hello</input>
+Nên:
+mọi thông tin bổ sung:
+
+placeholder,
+type,
+value,
+disabled,
+checked,
+src,
+href
+
+đều phải đi qua: attribute 😊
+Đây là điểm rất quan trọng 👍
+2. “Flow ngang” là gì? 😊
+là:
+cách các phần tử được sắp xếp khi render layout.
+Ví dụ:
+<input>
+<input>
+<input>
+Browser sẽ:
+đặt ô 1,
+rồi ô 2 bên phải,
+rồi ô 3 bên phải tiếp.
+Đây gọi là:
+inline flow 😊
+Nghĩa là:
+các phần tử:
+chảy theo chiều ngang.
+Giống văn bản 😊
+
+Ví dụ:
+Hello world HTML CSS
+Chữ:
+đi từ trái sang phải,
+đến hết chỗ thì xuống dòng.
+Input/button cũng tương tự 😊
+3. Nếu không đủ chỗ 😊
+
+Browser sẽ:
+wrap xuống hàng.
+Giống như:
+Một đoạn văn quá dài
+thì tự xuống dòng.
+4. Khác với block flow 😊
+
+Ví dụ:
+<div>Hello</div>
+<div>World</div>
+div:
+chiếm nguyên chiều ngang,
+nên phần tử sau bắt buộc xuống hàng.
+Đây là:
+block flow 😊
+5. Tóm tắt cực quan trọng 😊
+Loại flow	Hành vi
+inline flow	xếp ngang
+block flow	xếp dọc
+Inline flow:
+
+giống:
+
+dòng chữ.
+Block flow:
+
+giống:
+các khối hộp xếp chồng.
+1. Ý tưởng cốt lõi 😊
+
+Browser có 2 kiểu phần tử rất khác nhau:
+
+Nhóm	Ví dụ
+document content	div, p, h1, span
+form control	input, button
+Hai nhóm này:
+xử lý content dài KHÁC NHAU 😊
+2. Với div, p, h1, span
+
+Ví dụ:
+
+<p>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+</p>
+Browser nghĩ:
+“nội dung văn bản phải đọc được đầy đủ.”
+Nên:
+
+browser cố:
+
+hiển thị toàn bộ text 😊
+3. Nếu content quá dài 😊
+
+Browser sẽ:
+
+wrap xuống dòng.
+Ví dụ:
+Hello Hello Hello Hello
+Khi hết chiều ngang:
+
+browser:
+
+tự ngắt dòng,
+xuống hàng mới.
+Đây gọi là:
+text wrapping 😊
+4. Với block element 😊
+
+Ví dụ:
+
+<div>
+  text rất dài...
+</div>
+div thường:
+giữ width theo container cha,
+còn text bên trong tự wrap.
+Nên:
+
+div không cần phình ngang vô tận 😊
+
+5. Với inline text/span 😊
+<span>
+  text rất dài...
+</span>
+Browser vẫn cố:
+hiển thị đầy đủ text.
+Nhưng:
+
+span là inline.
+
+Nên:
+
+text flow như chữ bình thường:
+
+hết dòng,
+xuống dòng tiếp 😊
+6. Thanh cuộn xuất hiện khi nào? 😊
+
+Thông thường:
+
+HTML text thường ưu tiên wrap trước.
+Chỉ khi:
+CSS đặc biệt,
+container giới hạn,
+overflow rules,
+
+thì mới xuất hiện scroll 😊
+
+7. Còn INPUT thì khác hoàn toàn 😊
+
+Ví dụ:
+
+<input>
+Browser xem input là:
+“một ô điều khiển nhập liệu”
+
+KHÔNG phải:
+
+“một vùng văn bản document bình thường”
+Đây là khác biệt cực lớn 😊
+8. Input có width ổn định 😊
+
+Browser muốn:
+
+form đẹp,
+ổn định layout,
+không nhảy lung tung.
+Nên:
+
+input:
+
+KHÔNG tự giãn theo content 😊
+9. Khi text quá dài 😊
+
+Browser KHÔNG:
+
+wrap xuống dòng,
+KHÔNG làm input cao lên.
+Thay vào đó:
+
+browser:
+
+scroll content bên trong input 😊
+Chính xác như anh nói 👍
+Khi text dài:
+phần đầu bị trôi sang trái,
+browser hiển thị đoạn đang nhập.
+Muốn xem lại:
+
+user:
+
+click,
+dùng mũi tên,
+kéo caret.
+10. Đây là điểm rất quan trọng 😊
+Input:
+chỉ có 1 dòng 😊
+Nên:
+
+browser phải:
+
+giữ layout ổn định.
+Nếu input tự cao lên:
+
+form sẽ:
+
+rung lắc,
+xấu,
+khó dùng.
+11. So sánh trực quan 😊
+DIV/P/SPAN
+text text text text
+text text text text
+text text text text
+
+→ wrap xuống dòng 😊
+
+INPUT
+[text text text text ...]
+
+→ ô giữ nguyên,
+→ text scroll bên trong 😊
+
+12. Sau này anh sẽ gặp 😊
+
+Có một form control khác:
+
+<textarea>
+textarea:
+cho phép nhiều dòng,
+tự xuống hàng.
+Đây là:
+
+“phiên bản nhiều dòng của input” 😊
+Inline:
+
+không chiếm full width,
+chỉ ôm vùng content thực tế.
+Nên:
+
+highlight thường:
+
+vừa sát nội dung 😊
+5. Block 😊
+
+Anh viết:
+
+chiếm nguyên độ rộng container
+
+→ đúng với block flow mặc định 👍
+
+Và:
+
+màu cam trên dưới:
+
+thường là margin 😊
+Màu xanh giữa:
+content area 😊
+6. Parser 😊
+
+Anh viết:
+
+parser là bộ đọc, phân tích tài liệu
+
+→ RẤT ĐÚNG 👍
+
+Đây là phần em thích nhất 😊
+
+Anh đã hiểu:
+
+auto-fix KHÔNG phải nhiệm vụ chính.
+Nhiệm vụ chính của parser là:
+đọc HTML
+→ hiểu cấu trúc
+→ tạo DOM
+→ giúp browser render webpage
+Auto repair:
+
+chỉ là:
+
+cơ chế hỗ trợ chịu lỗi 😊
+Semantic tags:
+
+giúp:
+
+chia khu vực,
+mô tả vai trò,
+tổ chức document.
+Browser + developer:
+
+dễ hiểu website hơn 😊
+
+2. Các tag semantic mới đều là block 😊
+Tag		Default
+header		block
+nav		block
+main		block
+section		block
+footer		block
+Vì:
+
+chúng đại diện:
+“các vùng lớn của trang web”.
+Tag		Ý nghĩa
+header		phần đầu trang
+nav		khu vực điều hướng
+main		nội dung chính
+section		một khu nội dung
+footer		chân trang
+
+li cũng: có display dạng block-like 😊
+Nhưng: nó nằm trong:
+
+list-item formatting context.
+Devtools thường hiển thị:
+display: list-item
+Đây là kiểu đặc biệt 😊
+
+Nó:
+có marker,
+có layout dạng block,
+nhưng thêm cơ chế bullet/number.
+Vì vậy: li không phải inline 😊
+Về:
+
+visual mặc định
+
+thì:
+
+<header>
+
+và
+
+<div>
+
+thường:
+
+gần giống nhau 😊
+Khác biệt lớn nằm ở:
+semantic meaning 😊
+Header nói với browser:
+“đây là phần đầu trang”
+Còn div chỉ nói:
+“đây chỉ là một khối chung chung”
+Đây là điều frontend hiện đại rất quan trọng 😊
+Thử 2 😊
+
+Anh đặt:
+
+<footer>
+
+bên trong:
+
+<nav>
+Browser vẫn render 😊
+
+→ vì HTML5 khá linh hoạt.
+
+Nhưng:
+
+semantic hơi kỳ 😊
+
+Vì:
+
+nav
+nên chứa:
+link điều hướng,
+menu,
+navigation items.
+Còn:
+
+footer
+thường là:
+thông tin cuối trang,
+copyright,
+contact.
+Không “sai chết web”
+nhưng: semantic structure không đẹp 😊
+
+Tag		Vai trò
+form		vùng nhập dữ liệu
+textarea	input nhiều dòng
+select		danh sách chọn
+option		lựa chọn trong select
+Selector:
+KHÔNG phải semantic 👍
+Selector chỉ là:
+cơ chế chọn element 😊
+Semantic thuộc về:
+
+HTML meaning.
+
+Ví dụ:
+
+<h1>
+<nav>
+<footer>
+Còn selector:
+h1
+p
+div
+
+chỉ nói:
+
+“hãy chọn element này”
+Nó không tạo meaning 😊
+Ví dụ rất hay 😊
+h1 {
+  font-size: 12px;
+}
+
+Semantic:
+
+vẫn là heading cấp cao.
+
+Selector:
+
+chỉ đang chọn nó để style.
+style tag không phải semantic 😊
+
+→ đúng hoàn toàn 👍
+
+style:
+là infrastructure tag 😊
+Nó tồn tại để:
+
+browser nhận CSS rules.
+
+Nó không mô tả:
+nội dung,
+ý nghĩa,
+cấu trúc.
+Browser ưu tiên:
+HTML structure trước
+rồi mới áp CSS 😊
+Nghĩa là:
+
+Nếu:
+
+<h1>
+
+thì:
+semantic vẫn là heading,
+dù CSS có làm:
+
+màu xanh,
+nhỏ,
+lệch trái,
+giống paragraph.
+CSS:
+KHÔNG đổi semantic 😊
+Ví dụ cực hay 😊
+<h1 style="font-size: 12px;">
+
+Visual:
+
+nhỏ như text thường.
+
+Nhưng semantic:
+
+vẫn là heading cấp cao 😊
+Đây là nguyên lý rất quan trọng:
+HTML = meaning
+CSS = appearance
+
+Semantic:
+
+là meaning của content.
+
+Ví dụ:
+
+<header>
+<nav>
+<footer>
+Còn class:
+chủ yếu để phân loại / target 😊
+
+Ví dụ:
+
+<p class="red-text">
+
+red-text
+không nói:
+
+“đây là nội dung gì”
+
+Nó chỉ nói:
+
+“element này thuộc nhóm red-text”
+Nên:
+
+class:
+
+không phải semantic thật sự,
+nhưng hỗ trợ tổ chức/style rất mạnh 😊
+Browser matching hoạt động như:
+
+HTML element
+↓
+xem có class nào
+↓
+CSS tìm selector match
+↓
+áp style
+Đây là nền tảng của:
+CSS architecture,
+component system,
+frontend framework sau này 😊
+
+padding và border
+làm thay đổi render size của element 😊
+
+Còn:
+
+margin
+
+làm thay đổi:
+
+vị trí và khoảng cách xung quanh 😊
+block element mặc định có width: auto 😊
+
+Ví dụ:
+
+<div class="box">
+
+Div là:
+
+block element 😊
+
+Block element mặc định:
+
+cố gắng chiếm toàn bộ chiều ngang container
+Browser phải giải bài toán 😊
+
+Ví dụ viewport:
+
+500px
+
+Browser phải tính:
+
+margin
++ border
++ padding
++ content
+=
+500px
+Khi margin tăng 😊
+
+Ví dụ:
+
+margin-left: 80px;
+margin-right: 80px;
+
+Browser phải chừa:
+
+160px cho margin
+
+→ phần còn lại cho:
+
+content,
+padding,
+border
+
+bị giảm 😊
+
+Vì vậy 😊
+
+Không phải:
+
+margin làm content co lại trực tiếp
+
+Mà là:
+
+block element auto width
+phải tự cân bằng tổng chiều ngang 😊
+3. Đây là lý do anh thấy 😊
+margin tăng
+→ content width giảm
+4. Điều này cực kỳ quan trọng 😊
+
+Nếu anh viết:
+
+width: 300px;
+
+thì:
+
+content sẽ cố định 😊
+
+Lúc đó:
+tăng margin sẽ:
+
+không làm content nhỏ lại,
+mà chỉ đẩy element.
+5. Điều anh nhận xét tiếp theo cũng đúng 👍
+
+càng tăng margin thì phần tử tự di chuyển hoặc đẩy phần tử bên cạnh
+
+→ CHÍNH XÁC 😊
+
+Vì margin là:
+khoảng cách bên ngoài element 😊
+
+Ví dụ:
+
+margin-top: 100px;
+
+→ element bị đẩy xuống dưới 😊
+
+margin-left: 100px;
+
+→ element bị đẩy sang phải 😊
+
+Và với block element 😊
+
+Margin còn:
+
+tạo khoảng cách với element xung quanh 😊
+
+Ví dụ:
+
+<div>A</div>
+<div>B</div>
+
+nếu A có:
+
+margin-bottom: 50px;
+
+→ B bị đẩy xuống 😊
+Thành phần	Thuộc element?
+content			✓
+padding			✓
+border			✓
+margin		✗ (nằm ngoài element)
+Nhưng 😊
+Nếu nói:
+
+“không gian layout mà element sử dụng”
+
+thì:
+
+margin có được tính 😊
+
+Nên browser phải tính:
+
+margin + border + padding + content
+
+để sắp xếp layout 😊
+thử:
+
+width: 500px;
+margin: 300px;
+
+và thấy:
+
+content → 0
+
+😊
+
+Đây là cơ chế browser tự cân bằng layout 👍
+Browser phải giải 😊
+
+Ví dụ viewport:
+
+600px
+
+Nhưng anh yêu cầu:
+
+margin-left: 300
+margin-right: 300
+width: 500
+
+Tổng:
+
+300 + 300 + 500 = 1100px
+Không đủ chỗ 😊
+
+→ browser phải xử lý overflow/layout constraint.
+
+Nên content có thể bị ép nhỏ cực mạnh 😊
+thậm chí: 0px
+margin đẩy element bên cạnh ra xa hơn
+
+→ chính xác 😊
+
+Vì margin hoạt động như:
+vùng đệm bên ngoài 😊
+
+Ví dụ:
+
+<div>A</div>
+<div>B</div>
+
+Nếu A có:
+
+margin-bottom: 100px;
+
+→ B bị đẩy xuống 😊
+nếu không thiết lập thì tự động hiển thị theo content, padding, border
+
+→ chính xác 😊
+
+Với block element 😊
+
+Nếu không đặt:
+
+width
+height
+
+browser sẽ:
+
+tự tính kích thước 😊
+Width 😊
+
+Block element thường:
+
+cố gắng chiếm toàn bộ chiều ngang container
+Height 😊
+
+Tự mở rộng để: chứa đủ content 😊
+dù width cố định nhưng tổng kích thước vẫn lớn hơn width đã đặt
+
+→ CHÍNH XÁC 👍
+
+Đây là bản chất mặc định của CSS 😊
+
+Mặc định:
+
+box-sizing: content-box;
+
+Nghĩa là:
+
+width / height
+CHỈ áp lên content area 😊
+Ví dụ 😊
+width: 300px;
+border: 5px;
+
+→ thực tế render:
+
+300 content
++ 10 border
+=
+310px total 😊
+Nếu có thêm padding 😊
+padding: 20px;
+
+→ total:
+300
++ 40 padding
++ 10 border
+=
+350px 😊
+kỹ thuật chuẩn là: border render bên ngoài content width 😊
+text tràn khỏi box
+Đây là hành vi mặc định của browser 😊
+Browser ưu tiên:
+hiển thị đủ content 😊
+
+Dù: height: 20px;
+Browser vẫn: không cắt text ngay 😊
+→ content overflow ra ngoài box.
+content và box là hai thứ khác nhau 😊
+
+Ví dụ:
+
+box height = 20px
+
+không có nghĩa:
+
+content bị giới hạn còn 20px 😊
+
+Browser vẫn render content đầy đủ.
+Browser phải quyết định:
+
+Trường hợp		Hành vi
+content lớn hơn box	tràn
+hidden			cắt
+scroll			thanh cuộn
+box model luôn hiển thị:
+content
+padding
+border
+margin
+
+Nhưng:
+
+width/height đang áp lên content box 😊
+
+Đó là lý do devtools:
+
+không “biến dạng”,
+vẫn hiển thị logic box model chuẩn.
+hành vi của CSS với giá trị âm (negative values) 😊
+
+Và ở đây có một điểm cực kỳ quan trọng:
+
+không phải property nào cũng chấp nhận số âm 😊
+1. Điều quan trọng nhất 😊
+width: -300px;
+height: -100px;
+
+→ thực ra:
+
+KHÔNG hợp lệ 😊
+
+Browser parser đọc thấy:
+
+negative width/height
+
+→ invalid value.
+
+Nên browser:
+
+bỏ qua property đó 😊
+Vì vậy 😊
+
+Element của anh không thật sự có:
+
+width âm
+height âm
+
+Mà browser quay về:
+
+giá trị mặc định/auto 😊
+2. Đây là lý do anh thấy 😊
+
+width kéo giãn rất lớn
+
+😊
+
+Vì khi:
+
+width: -300px;
+
+bị invalid,
+
+browser quay lại:
+
+width: auto;
+
+Mà div block element với:
+
+width: auto
+
+thường:
+
+chiếm gần toàn bộ chiều ngang container 😊
+3. Điều quan trọng tiếp theo 😊
+margin: -30px;
+
+→ HOÀN TOÀN hợp lệ 😊
+
+Margin:
+
+cho phép số âm 👍
+Đây là lý do 😊
+
+Anh thấy:
+
+element bị kéo lệch sang trái
+xuất hiện scroll ngang
+
+Vì:
+
+margin-left: -30px;
+
+làm element:
+
+dịch sang trái khỏi viewport 😊
+
+Nên browser phải:
+
+tạo horizontal scroll 😊
+
+để vẫn cho phép nhìn thấy phần overflow.
+
+4. Điều này cực kỳ quan trọng 😊
+Negative margin
+
+có thể:
+
+kéo element đè lên nhau,
+kéo ra ngoài viewport,
+phá layout,
+tạo overlap.
+
+Sau này frontend nâng cao:
+người ta đôi lúc cố tình dùng:
+
+negative margin
+
+để tạo layout đặc biệt 😊
+
+5. Vì sao height của anh còn ~84px 😊
+
+Anh thấy:
+
+height giảm
+
+Vì:
+
+height: -100px;
+
+invalid → browser bỏ qua.
+
+Sau đó:
+height quay về:
+
+auto
+
+Nên chiều cao:
+
+phụ thuộc content + border 😊
+6. Điều rất đáng giá 😊
+
+Anh vừa tự phát hiện:
+
+CSS parser có validation 😊
+
+Không phải:
+
+property nào browser cũng chấp nhận 😊
+
+Browser parser:
+đọc syntax,
+kiểm tra value hợp lệ,
+invalid → bỏ qua property.
+
+“property bị invalid”
+
+và
+
+“browser fallback về giá trị mặc định” 😊
+1. Với code mới 😊
+.box4 {
+  background-color: violet;
+  width: 300px;
+  height: -100px;
+  border: 5px solid black;
+}
+Browser xử lý thế này 😊
+Width
+width: 300px;
+
+✓ hợp lệ
+
+→ browser áp dụng 😊
+
+Height
+height: -100px;
+
+✗ không hợp lệ
+
+→ browser:
+
+bỏ qua property 😊
+2. Khi height bị bỏ qua 😊
+
+Browser quay về:
+
+height: auto;
+
+Và:
+
+auto height
+
+=
+chiều cao đủ chứa content 😊
+
+Nên 😊
+
+Anh nói:
+
+chiều cao thực hiển thị = content + border + padding
+
+→ gần đúng 👍
+
+Chuẩn hơn nên hiểu:
+
+total render height 😊
+
+=
+
+content height
++ padding
++ border
+
+Trong ví dụ hiện tại:
+padding = 0
+
+→ nên anh thấy:
+
+content + border 😊
+3. Điều rất đúng 😊
+
+width không đổi
+
+👍
+
+Vì:
+
+width: 300px;
+
+vẫn hợp lệ 😊
+
+Nên browser:
+
+vẫn giữ content width = 300px 😊
+
+Tổng render width thành:
+
+300
++ border trái
++ border phải
+
+=
+
+310px 😊
+
+(gần với số anh đo)
+
+4. Vì sao chiều cao tăng lên 😊
+
+Anh thấy:
+
+141.2px
+
+Vì:
+content của anh khá dài 😊
+
+Browser phải:
+
+tự tăng auto height để chứa text 😊
+
+Text bị:
+
+wrap,
+xuống nhiều dòng,
+height content tăng mạnh.
+5. Điều rất hay 😊
+
+Anh đã phát hiện:
+
+invalid CSS property
+
+không làm browser “crash” 😊
+
+Browser rất “chịu lỗi”.
+
+Nó sẽ:
+
+bỏ qua phần sai,
+giữ phần đúng,
+cố render tiếp 😊
+
+Ví dụ:
+
+Property	Hợp lệ?	Browser
+width:300px	✓	áp dụng
+height:-100px	✗	bỏ qua
+6. Đây chính là tính “fault tolerant” của browser parser 😊
+
+Nếu browser quá nghiêm ngặt:
+
+chỉ cần sai 1 dòng CSS,
+cả web sẽ hỏng 😊
+
+Nên browser được thiết kế:
+
+cố render tối đa có thể 👍
+1. Trước tiên cần chỉnh nhẹ một ý 😊
+
+Anh nói:
+
+width:300px; height:100px cố định để chứa content + padding + border
+
+→ chưa hoàn toàn đúng 😊
+
+Mặc định CSS là:
+
+box-sizing: content-box;
+
+Nghĩa là:
+
+width/height chỉ áp lên content area 😊
+
+Ví dụ:
+
+width: 300px;
+padding: 20px;
+border: 5px;
+
+Thì:
+
+Thành phần	Kích thước
+content	300
+padding	+40
+border	+10
+
+→ tổng render:
+
+350px 😊
+2. Điều anh nói đúng 👍
+
+content dài sẽ tràn khỏi box
+
+✓ đúng 😊
+
+Vì browser:
+
+ưu tiên render content 😊
+
+Nếu:
+
+height: 100px;
+
+mà content cần:
+
+200px
+
+→ text sẽ overflow 😊
+
+3. Bây giờ tới phần cực quan trọng 😊
+width:auto
+height:auto
+
+Anh hỏi:
+
+auto cụ thể tính ra sao?
+
+😊
+
+Với block element như div 😊
+width:auto
+
+thường nghĩa là:
+
+chiếm phần chiều ngang còn lại của container 😊
+
+Ví dụ:
+
+Viewport:
+
+500px
+
+Nếu:
+
+margin-left: 30px;
+margin-right: 30px;
+border: 5px;
+
+Browser tính:
+
+content width
+=
+500
+- margin
+- border
+- padding
+
+Nên:
+
+auto width là kết quả của phép tính layout 😊
+
+Không phải:
+
+random 😊
+4. Height:auto 😊
+
+Khác width 😊
+
+Height auto nghĩa là:
+
+cao vừa đủ chứa content 😊
+
+Browser:
+
+render text,
+tính số dòng,
+tính line-height,
+cộng padding/border.
+
+→ ra height cuối cùng 😊
+
+5. Điều anh phát hiện rất chính xác 😊
+
+đổi nhiều giá trị âm khác nhau
+nhưng kích thước luôn giống nhau
+
+👍
+
+Vì:
+
+width:-300px
+width:-500px
+width:-9999px
+
+đều:
+
+invalid 😊
+
+Browser xử lý giống nhau:
+
+bỏ qua property 😊
+
+→ tất cả quay về:
+
+width:auto;
+height:auto;
+
+Nên kích thước:
+
+luôn giống nhau 😊
+6. Điều này rất sâu 😊
+
+Anh vừa chứng minh được:
+
+invalid CSS value
+
+không tạo “giá trị âm thực tế”
+
+Mà:
+
+property bị loại khỏi quá trình layout 😊
+
+Đây là khác biệt cực lớn 😊
+
+7. Tóm tắt cực chuẩn 😊
+Trường hợp	Browser làm gì
+width:300px	content width = 300
+width:-300px	invalid → bỏ qua
+width:auto	browser tự tính layout
+height:auto	cao đủ chứa content
+
+total width phải vừa container 😊
+Với block element auto width 😊
+
+Browser thường tính:
+
+available width
+=
+container width
+- margin
+- border
+- padding
+3. Điều anh hiểu đúng 👍
+
+width:300px là kích thước content chưa gồm border + padding
+
+✓ chính xác 😊
+
+Mặc định:
+
+box-sizing: content-box;
+
+nên:
+
+width:300px;
+
+=
+
+content area = 300 😊
+4. Phần height:auto 😊
+
+Anh hỏi rất hay:
+
+height tự tính như thế nào?
+
+😊
+
+Có cần hiểu sâu ngay bây giờ không?
+
+→ chưa cần quá sâu 😊
+
+Nhưng:
+
+nên hiểu nguyên lý 😊
+Browser tính height:auto thế nào? 😊
+Ý tưởng đơn giản:
+
+Browser hỏi:
+
+“Cần cao bao nhiêu để chứa đủ content?”
+
+😊
+
+Ví dụ 😊
+<div>
+Hello
+Hello
+Hello
+</div>
+
+Browser phải tính:
+
+font-size,
+line-height,
+số dòng,
+padding,
+border.
+Ví dụ thực tế 😊
+
+Giả sử:
+
+font-size: 16px;
+line-height: 20px;
+
+và text chiếm:
+
+3 dòng
+
+→ content height:
+
+20 × 3 = 60px 😊
+
+Sau đó cộng thêm:
+
+padding-top
+padding-bottom
+border
+
+→ ra final height 😊
+
+5. Điều rất quan trọng 😊
+
+nếu content quá dài vẫn tràn box
+
+→ chỉ khi:
+
+anh đã cố định height 😊
+
+Ví dụ:
+
+height: 50px;
+
+nhưng content cần:
+
+200px
+
+→ overflow 😊
+
+Nếu dùng:
+height: auto;
+
+Browser sẽ:
+
+tự mở rộng box 😊
+
+để chứa đủ content.
+
+Đây là khác biệt cực lớn 😊
+Height	Browser
+auto	box tự cao thêm
+fixed	content có thể tràn
+6. Điều anh đang tiến rất tốt 😊
+
+Anh bắt đầu hiểu:
+CSS layout = browser giải bài toán không gian 😊
+Không còn là: “trang trí văn bản” nữa
+
+đúng là devtools chiếm 1 khoảng không gian lớn làm box hẹp lại. Sau khi thu hẹp tối đa devtools thì kích thước box là: 559.2 x 84.8 . Trong đó riêng phần content là 549.6 x 75.2 (trước khi thu hẹp là: 430 x 103.6). Nếu việc hiển thị devtools ảnh hưởng đến container width thì content width được co kéo và tính như thế nào cho phù hợp tương ứng mỗi khi thay đổi width của viewport/container?
+
+Anh đang chạm tới một trong những cơ chế cốt lõi nhất của CSS layout 😊
+Đó là:
+
+browser reflow / layout recalculation 👍
+
+Và câu hỏi của anh:
+
+content width được co kéo tính như thế nào?
+
+→ chính là:
+
+browser đang giải bài toán layout 😊
+1. Điều gì xảy ra khi anh kéo devtools? 😊
+
+Khi devtools:
+
+mở rộng,
+thu hẹp,
+dock bên phải,
+
+thì:
+
+viewport width thay đổi 😊
+
+Ví dụ:
+
+Trạng thái	       Viewport
+chưa mở devtools	1200px
+devtools mở		700px
+devtools thu nhỏ	900px
+
+Ngay lúc đó browser:
+layout lại toàn bộ trang 😊
+
+Quá trình này gọi là: reflow (layout recalculation)
+2. Với block element width:auto 😊
+Browser dùng nguyên lý: chiếm phần ngang còn lại 😊
+
+Ví dụ:
+margin: 30px;
+border: 5px;
+padding: 0;
+width: auto;
+
+Nếu viewport: 700px
+
+Browser tính:
+content width
+=
+700
+- 30
+- 30
+- 5
+- 5
+
+= 630px 😊
+3. Vì sao content width thay đổi liên tục? 😊
+
+Vì: auto width không cố định 😊
+
+Nó là: kết quả của phép tính layout 😊
+
+Khi viewport đổi:
+available space đổi,
+content width đổi,
+text wrap đổi,
+height cũng đổi theo 😊
+4. Đây là điểm cực quan trọng 😊
+
+Anh thấy:
+
+Trước		Sau
+width nhỏ	height lớn
+width lớn	height nhỏ
+
+Đây là vì:
+text wrapping 😊
+Ví dụ 😊
+Width nhỏ
+Hello Hello
+Hello Hello
+Hello Hello
+
+→ nhiều dòng
+→ height tăng 😊
+
+Width lớn
+Hello Hello Hello Hello Hello
+
+→ ít dòng
+→ height giảm 😊
+
+5. Browser tính content height thế nào? 😊
+
+Sau khi width được quyết định:
+
+Browser:
+render text,
+tính số dòng thực tế,
+nhân với line-height.
+
+Ví dụ:
+
+5 dòng × 18px
+
+= 90px content height 😊
+6. Đây là lý do anh thấy 😊
+
+Khi:
+viewport rộng hơn,
+content width tăng,
+
+→ text xuống dòng ít hơn 😊
+
+→ content height giảm 😊
+
+Nên:
+
+Width	Height
+430	103
+550	84
+
+là hoàn toàn logic 👍
+
+7. Đây là nền tảng của responsive web 😊
+
+Modern web:
+
+không phải kích thước cố định 😊
+
+Mà:
+browser luôn:
+
+tính lại layout,
+co giãn,
+wrap text,
+resize box.
+8. Điều rất đáng khen 😊
+
+Anh đã tự phát hiện:
+
+width và height liên hệ với nhau 😊
+
+Đây là bước tư duy rất quan trọng.
+
+Nhiều người học CSS lâu vẫn nghĩ:
+
+width và height độc lập hoàn toàn
+
+nhưng thực tế: text layout làm chúng liên kết rất mạnh 😊
+HTML tag:
+
+div,
+span,
+p,
+h1,
+a
+
+đều có:
+
+display mặc định 😊
+
+Ví dụ:
+
+Element	Display mặc định
+div	block
+p	block
+h1	block
+span	inline
+a	inline
+Nhưng 😊
+
+CSS có thể:
+
+thay đổi cách element hiển thị 😊
+Display	Vai trò
+block	chiếm cả dòng
+inline	nằm cùng dòng
+inline-block	lai giữa inline + block
+none	ẩn element
+flex	layout hiện đại
+
+Trong đó:
+
+inline-block
+
+sẽ giúp anh “khai sáng” rất nhiều 😊
+
+Vì nó là cầu nối giữa:
+
+inline,
+block,
+width/height,
+flow layout.
+
+Ý tưởng cốt lõi 😊
+
+HTML tag:
+
+div,
+span,
+p,
+h1,
+a
+
+đều có:
+
+display mặc định 😊
+
+Ví dụ:
+
+Element	Display mặc định
+div	block
+p	block
+h1	block
+span	inline
+a	inline
+Nhưng 😊
+
+CSS có thể:
+
+thay đổi cách element hiển thị 😊
+
+Anh nói:
+
+inline vẫn nhận width
+
+→ thực ra:
+
+inline KHÔNG nhận width 😊
+
+Devtools vẫn hiển thị:
+
+width: 500px;
+
+nhưng:
+
+browser không dùng giá trị đó để layout 😊
+
+Đó là lý do:
+
+devtools làm mờ,
+hiển thị disabled/inactive 😊
+Với inline element 😊
+
+Browser dùng:
+
+shrink-to-fit content 😊
+
+Nghĩa là:
+
+chiều rộng phụ thuộc content 😊
+
+Ví dụ:
+
+<span>Hello</span>
+
+Width thực tế:
+≈ độ dài chữ “Hello” 😊
+
+2. Đây là lý do anh thấy 😊
+
+đổi width không làm box lớn lên
+
+👍
+
+Vì:
+
+display:inline
+
+→ browser bỏ qua:
+
+width,
+height.
+Nhưng 😊
+
+Padding và border:
+
+vẫn hoạt động 😊
+
+Nên inline:
+vẫn có box model một phần 😊
+
+3. Điều anh thấy về block 😊
+
+Anh nói:
+
+block không chiếm hết dòng
+
+→ cần phân biệt 😊
+
+Block có 2 thứ 😊
+Khái niệm	Ý nghĩa
+line occupation	chiếm riêng 1 dòng
+visual width	chiều rộng render
+
+Block:
+
+luôn chiếm riêng một dòng 😊
+
+Nhưng:
+
+width:200px;
+
+nên phần nhìn thấy:
+
+chỉ rộng 200px 😊
+
+Phần còn lại của dòng:
+
+vẫn không cho element khác chen vào 😊
+4. Điều anh thấy về inline-block 😊
+
+Anh nói:
+
+nhìn không khác inline
+
+😊
+
+Đúng là:
+
+nhìn khá giống 😊
+
+Nhưng khác biệt cực lớn là:
+
+Property	inline	inline-block
+cùng dòng	✓	✓
+width hoạt động	✗	✓
+height hoạt động	✗	✓
+Đây là bản chất 😊
+inline-block
+
+=
+
+nằm cùng hàng như inline
+nhận width/height như block 😊
+5. Điều rất hay 😊
+
+Anh thấy:
+
+inline-box height luôn auto
+
+👍
+
+Thực ra:
+inline element:
+
+không thật sự quản lý height box kiểu block 😊
+
+Chiều cao của nó chủ yếu phụ thuộc:
+
+line-height,
+font-size,
+text metrics.
+
+Nên devtools hiển thị khác 😊
+
+6. “Thử 2” của anh rất giá trị 😊
+
+Anh đổi:
+
+display:block;
+
+cho span 😊
+
+Kết quả:
+
+span xuống dòng,
+width hoạt động,
+hành vi giống div 😊
+
+→ đây là bằng chứng rất mạnh:
+
+display quyết định layout mạnh hơn tên tag 😊
+7. Điều cực kỳ quan trọng 😊
+
+Anh đang dần thấy:
+
+HTML tag
+≠
+layout behavior cố định 😊
+
+Mà:
+
+CSS display quyết định flow layout 😊
+
+Ví dụ:
+
+Tag	Display mặc định
+div	block
+span	inline
+
+Nhưng CSS có thể đổi hoàn toàn 😊
+
+8. Điều em đánh giá rất cao 😊
+
+Anh đã tự phát hiện:
+
+inactive width của inline,
+display ảnh hưởng layout,
+inline-block là dạng lai,
+block chiếm dòng nhưng không nhất thiết full visual width.
+
+Chào anh 😊
+Câu hỏi này rất sắc vì anh đang phát hiện:
+
+devtools highlight
+
+không hoàn toàn giống
+
+layout occupation 😊
+
+Đây là chỗ rất nhiều người mới học CSS bị nhầm 👍
+
+1. Trước đây anh thấy 😊
+
+Block element:
+
+highlight kéo dài hết dòng,
+màu xanh phủ cả chiều ngang.
+
+→ đúng 😊
+
+Nhưng bài này 😊
+width: 200px;
+
+nên anh thấy:
+
+highlight chỉ rộng đúng box 😊
+2. Điều quan trọng 😊
+“Chiếm nguyên dòng”
+
+KHÔNG có nghĩa:
+
+visual box phải full width 😊
+
+Mà nghĩa là:
+
+browser không cho element khác đứng cùng dòng 😊
+
+Ví dụ 😊
+
+<div style="width:200px"></div>
+<div></div>
+
+Div đầu:
+
+chỉ rộng 200px nhìn thấy,
+nhưng div sau vẫn bị ép xuống dòng 😊
+
+→ đó chính là:
+
+block formatting behavior 😊
+3. Devtools đang highlight cái gì? 😊
+
+Devtools thường highlight:
+
+actual rendered box 😊
+
+Tức là:
+
+content,
+padding,
+border,
+margin.
+
+Không phải:
+
+“quyền chiếm dòng” 😊
+4. Block có 2 khái niệm dễ nhầm 😊
+Khái niệm	Ý nghĩa
+line participation	đứng riêng dòng
+rendered width	rộng bao nhiêu
+Block chỉ đảm bảo 😊
+đứng riêng dòng 😊
+
+KHÔNG đảm bảo:
+
+box phải phủ toàn bộ chiều ngang 😊
+5. Khi width:auto 😊
+
+Block element thường:
+
+tự giãn full available width 😊
+
+Nên:
+devtools highlight nhìn như:
+
+“chiếm hết dòng”
+Nhưng khi anh đặt:
+width:200px;
+
+box thật sự chỉ còn:
+
+200px 😊
+
+Dù:
+
+element vẫn block,
+vẫn đứng riêng dòng 😊
+6. Inline-block 😊
+
+Inline-block:
+
+có width thật,
+có height thật,
+nhưng vẫn tham gia inline flow 😊
+
+Nên devtools:
+
+nhìn rất giống inline 😊
+
+Khác biệt chính:
+
+inline-block nhận width/height,
+inline không 😊
+7. Điều anh vừa phát hiện cực kỳ quan trọng 😊
+
+Anh đang bắt đầu phân biệt được:
+
+layout flow
+
+và
+
+visual rendering 😊
+
+Đây là tư duy rất mạnh trong CSS 👍
+
+8. Tóm tắt cực chuẩn 😊
+Display	Đứng riêng dòng	Width hoạt động
+block	✓	✓
+inline	✗	✗
+inline-block	✗	✓
+
+Và:
+
+devtools highlight chủ yếu hiển thị rendered box 😊
+
+không phải:
+
+“quyền layout” 😊
+
+à à, mình hiểu rồi, vì đặt width: 200px là cố định cho block nên phần hiển thị đánh dấu màu trường hợp này chỉ phủ đúng content + padding + border
+
+Đúng rồi anh 😊👍
+Anh vừa tự nối được:
+
+width cố định
+
+với
+
+rendered box trong devtools 😊
+
+Đây là hiểu đúng bản chất 👍
+
+1. Khi block để mặc định 😊
+display:block;
+width:auto;
+
+Browser thường tính:
+
+width = full available width 😊
+
+Nên:
+devtools highlight nhìn như:
+
+phủ hết dòng 😊
+2. Nhưng khi anh đặt 😊
+width:200px;
+
+thì:
+
+rendered box thật sự chỉ còn 200px 😊
+
+Devtools highlight:
+
+content,
+padding,
+border,
+margin,
+
+theo kích thước thật 😊
+
+Nên nhìn:
+
+chỉ phủ quanh box 😊
+3. Nhưng element vẫn là block 😊
+
+Điều cực quan trọng:
+
+Dù chỉ rộng:
+
+200px
+
+thì:
+
+block vẫn giữ “quyền đứng riêng dòng” 😊
+
+Nghĩa là:
+
+<div style="width:200px"></div>
+<div></div>
+
+div thứ hai:
+
+vẫn bị đẩy xuống dòng 😊
+
+→ đây là bản chất của:
+
+block flow layout 😊
+4. Đây là lý do dễ gây nhầm 😊
+
+Người mới học thường nghĩ:
+
+block = full width 😊
+
+Thực ra chuẩn hơn là:
+
+block = phần tử đứng riêng dòng 😊
+
+Còn:
+
+rộng bao nhiêu
+
+là chuyện khác 😊
+
+5. Điều anh hiểu được rất giá trị 😊
+
+Anh đang phân biệt được:
+
+flow behavior,
+rendered box,
+width calculation,
+layout occupation.
+
+Đây là nền rất mạnh để sau này học:
+
+flexbox,
+grid,
+responsive layout 😊
+
+“block không nhất thiết full visual width”
+và
+“devtools highlight ≠ quyền chiếm dòng”
+
+1. Vì sao display:inline làm box “biến mất”? 😊
+
+Thực ra:
+
+box chưa biến mất 😊
+
+Mà là:
+
+inline không tôn trọng width/height 😊
+
+Anh có:
+
+.box1{
+  width:100px;
+  height:100px;
+  display:inline;
+}
+
+Inline:
+
+chỉ rộng/vừa theo content 😊
+
+Nếu không có text/content 😊
+
+→ kích thước gần như:
+
+0 x line-height 😊
+
+Nên:
+gần như không thấy 😊
+
+2. Nếu đổi 😊
+display:block;
+
+hoặc:
+
+display:inline-block;
+
+thì:
+width/height bắt đầu:
+
+có hiệu lực 😊
+
+Nên:
+box hiện ra đầy đủ 😊
+
+3. Điều rất quan trọng 😊
+Inline 😊
+
+Thường:
+
+dành cho text,
+flow chữ,
+span,
+a,
+label 😊
+
+Nên browser:
+
+bỏ qua width/height 😊
+4. Nhưng 😊
+
+Inline vẫn:
+
+có background,
+border,
+padding 😊
+
+Ví dụ:
+
+display:inline;
+background:red;
+border:3px solid black;
+
+Nếu có text 😊
+
+→ anh sẽ thấy:
+
+vùng inline được tô 😊
+5. Anh thử 😊
+<div class="box1">
+  HELLO
+</div>
+
+với:
+
+display:inline;
+
+Lúc này:
+box sẽ xuất hiện 😊
+
+Nhưng:
+
+width/height vẫn bị ignore 😊
+box chỉ ôm text 😊
+6. Đây là khác biệt cực quan trọng 😊
+Display	Width/Height
+inline	thường ignore
+block	hoạt động
+inline-block	hoạt động
+7. Điều anh vừa gặp 😊
+
+Là một ví dụ rất điển hình của:
+
+formatting context 😊
+
+Inline layout:
+
+không sinh ra “khối box đầy đủ” như block
+
+flex-direction và gap 😊
+
+Đây là thứ giúp:
+
+đổi hướng sắp xếp,
+tạo khoảng cách đẹp giữa flex items
+Trong flex:
+
+main axis phụ thuộc flex-direction 😊
+
+Ví dụ:
+
+Direction	Main axis
+row	ngang
+column	dọc
+
+Nên:
+justify-content
+
+luôn căn theo main axis
+
+Trong flex:
+
+justify-content và align-items độc lập 😊
+
+Anh có thể:
+
+chỉ dùng 1 cái 😊
+hoặc dùng cả hai 😊
+6. Nhưng 😊
+
+Ý nghĩa của chúng:
+
+phụ thuộc flex-direction 😊
+
+Ví dụ:
+
+flex-direction:row 😊
+Property	    Tác động
+justify-content     ngang
+align-items	    dọc
+
+flex-direction:column 😊
+Property	Tác động
+justify-content	dọc
+align-items	ngang
+
+Đây là phần cực kỳ quan trọng của flex 👍
+
+1. Về gap 😊
+
+Anh hiểu gần đúng 😊
+Nhưng có một điểm cần chỉnh nhẹ:
+
+gap KHÔNG tự chia đều khoảng thừa 😊
+
+gap:20px
+nghĩa là:
+
+khoảng cách giữa các flex items luôn đúng 20px 😊
+
+Ví dụ:
+
+box1 --20px-- box2 --20px-- box3
+
+Phần khoảng dư còn lại của container:
+
+vẫn nằm cuối hoặc theo justify-content 😊
+2. Cái tự chia đều khoảng thừa 😊
+
+thường là:
+
+justify-content: space-between;
+
+hoặc:
+
+space-around
+space-evenly
+
+Mới là:
+
+chia khoảng trống 😊
+3. Gap khác margin rất nhiều 😊
+
+Quan sát này của anh rất hay 👍
+
+Margin 😊
+từng element tự mang spacing 😊
+dễ bị:
+chồng margin,
+dư spacing,
+lệch 😊
+Gap 😊
+container quản lý spacing 😊
+spacing đồng đều 😊
+sạch layout hơn 😊
+
+Nên flex/grid hiện đại rất thích dùng gap 😊
+
+4. row-reverse 😊
+
+Rất chuẩn 👍
+
+Main axis vẫn:
+
+ngang 😊
+
+Nhưng:
+
+hướng bị đảo 😊
+
+Nên:
+
+3 2 1 😊
+
+Nhưng:
+gap vẫn hoạt động bình thường 😊
+
+5. column-reverse 😊
+
+Cũng chính xác 👍
+
+Main axis chuyển thành:
+
+dọc 😊
+
+Và:
+
+hướng dọc bị đảo 😊
+
+Nên:
+
+3
+2
+1
+6. Điều rất quan trọng 😊
+
+reverse
+
+không đổi HTML 😊
+
+Nó chỉ:
+
+đổi hướng render/layout 😊
+
+Nghĩa là DOM vẫn:
+
+1
+2
+3
+
+Nhưng browser hiển thị:
+
+3 2 1
+7. Đây là nền của UI hiện đại 😊
+
+Ví dụ:
+
+chat app 😊
+timeline 😊
+reverse message 😊
+responsive layout 😊
+
+đều dùng flex-direction 😊
+
+1. gap:900px 😊
+
+Đây là khoảng cách:
+
+cực lớn 😊
+
+Browser vẫn cố:
+
+giữ đúng gap 😊
+
+Nên layout bắt đầu:
+
+tràn,
+overflow,
+xuất hiện scroll 😊
+2. Trường hợp 😊
+display:flex;
+
+(main axis ngang mặc định)
+
+Browser sắp:
+
+box1 --900px-- box2 --900px-- box3
+
+Container không đủ rộng 😊
+
+→ content tràn ngang 😊
+
+Nên:
+
+xuất hiện horizontal scrollbar 😊
+
+Và:
+
+box2,
+box3,
+
+không mất 😊
+
+Mà:
+
+nằm ngoài viewport/container 😊
+3. Vì sao chỉ thấy box1? 😊
+
+Vì:
+box1 nằm đầu flow 😊
+
+Còn:
+box2/box3:
+
+bị đẩy quá xa sang phải 😊
+
+Phải scroll mới thấy 😊
+
+4. Với 😊
+row-reverse
+
+Main axis:
+
+vẫn ngang 😊
+
+Nhưng flow đảo:
+
+3 ← 2 ← 1
+
+Nên:
+khoảng trống lớn 900px 😊
+
+đẩy:
+
+box2,
+box3,
+
+ra xa về bên trái 😊
+
+Kết quả:
+
+chỉ còn box1 lọt viewport 😊
+5. Với 😊
+column-reverse
+
+Main axis chuyển thành:
+
+dọc 😊
+
+Nên:
+gap 900px:
+
+tác động theo chiều dọc 😊
+
+Browser:
+
+tăng chiều cao layout 😊
+container/content kéo dài 😊
+
+Nên:
+
+xuất hiện scrollbar dọc 😊
+6. Điều rất quan trọng 😊
+
+Flex container:
+
+mặc định không cắt overflow 😊
+
+Nó cho phép:
+
+content tràn 😊
+
+Trừ khi anh thêm:
+
+overflow:hidden;
+7. Quan sát này cũng rất chuẩn 😊
+không có display:flex
+→ flex-direction vô hiệu 😊
+
+Đúng 👍
+
+Vì:
+
+flex-direction
+
+chỉ có ý nghĩa trong:
+
+flex formatting context 😊
+
+Nếu:
+
+display:block;
+
+thì browser:
+
+bỏ qua flex-direction 😊
+8. Đây là pattern lớn của CSS 😊
+Property		Cần context
+flex-direction		display:flex
+justify-content		display:flex/grid
+top/left		positioned element
+z-index			stacking/position
+overflow		constrained box
+
+Anh đang dần nhìn CSS như:
+hệ thống layout engine
+
+wrap chỉ hoạt động khi thiếu chỗ 😊
+1. Với 😊
+width:600px;
+
+Container đủ rộng cho:
+
+3 box mỗi hàng 😊
+
+Browser tính gần đúng:
+
+150 + 150 + 150
++ gap
+
+nên:
+
+1 2 3
+4 5
+
+Đây là:
+
+line wrapping 😊
+2. Khi 😊
+width:1000px;
+
+Container:
+
+đủ chỗ cho toàn bộ items 😊
+
+Nên:
+browser không cần tạo line mới 😊
+
+Dù:
+
+flex-wrap:wrap;
+
+vẫn tồn tại 😊
+
+3. Đây là điều rất quan trọng 😊
+
+wrap
+
+chỉ cho phép xuống dòng 😊
+
+Không có nghĩa:
+
+“luôn phải xuống dòng”
+
+Browser chỉ wrap khi:
+
+không đủ available space 😊
+4. Đây là tư duy cực kỳ quan trọng 😊
+
+Flex layout:
+
+responsive theo available space 😊
+
+Nghĩa là:
+cùng một code 😊
+
+màn hình nhỏ → wrap 😊
+màn hình lớn → cùng hàng 😊
+5. Đây chính là nền của responsive design 😊
+
+Ví dụ:
+
+desktop 😊
+1 2 3 4
+tablet 😊
+1 2
+3 4
+mobile 😊
+1
+2
+3
+4
+
+Mà:
+
+không cần đổi HTML 😊
+
+Chỉ nhờ:
+
+flex-wrap,
+width,
+available space 😊
+
+như vậy khi kết hợp auto-fit và min-max nghĩa là tạo ra hệ thống grid có độ rộng đủ chỗ đặt được tất cả các box có width tối thiểu 150px. Khi thu nhỏ browser đến khi không đủ chỗ thì các phần tử bắt đầu tự xuống hàng.
+
+Khác với chỉ dùng min-max-> khi thu nhỏ browser dù không đủ chỗ thì các phần tử vẫn không tự xuống hàng mà bị ẩn đi.
+
+
+Khi browser toàn màn hình:
+
+-Có 3 cột
+
+-Các card sắp xếp tuần tự thành 2 hàng từ trái sang phải, từ trên xuống dưới
+
+
+
+Khi viewport vừa nhỏ hơn 900px:
+
+-Có 2 cột
+
+-Các card được sắp xếp tuần tự từ trên xuống dưới, từ trái qua phải. 
+
+
+
+Khi viewport nhỏ hơn 600px:
+
+-Có 1 cột
+
+-Các card sắp xếp theo 6 hàng tuần tự từ trên xuống dưới
+
+
+
+Khi viewport = 500px thì max-width: 900px và max-width: 600px đều thỏa mãn. Sự khác biệt khi áp viewport (hoặc width của container) là độ rộng tối thiểu viewport và box luôn là 500px.
+
+Nếu cả 2 cùng thỏa mãn thì CSS 900px sẽ thắng, tuy nhiên chỉ cần giá trị viewport lớn hơn 900px thì trình layout có 3 cột 2 hàng và độ rộng box thay đổi theo(khi là 3 cột thì độ rộng box là nhỏ nhất rồi tiến dần lên 2 cột lớn hơn, độ rộng cột lớn nhất khi layout là 1 cột
+
+
+
+Chào bạn, những hiện tượng bạn đang quan sát thấy là những ví dụ rất kinh điển và tuyệt vời để hiểu sâu về 3 cơ chế cốt lõi trong CSS: Stacking Context (Ngữ cảnh xếp chồng), Normal Flow (Luồng tài liệu) và Positioning (Định vị).
+
+Dưới đây là giải thích chi tiết cho từng hiện tượng kỳ lạ mà bạn đang gặp phải, dựa trên chính đoạn code của bạn.
+1. Tại sao thẻ <p> nằm dưới BLOCK TRÊN nhưng đè lên .content (dù .content có z-index)?
+
+Vấn đề này hoàn toàn là do luật Stacking Context của CSS quy định thứ tự hiển thị (từ dưới lên trên) của các phần tử.
+
+    Vì sao đè lên .content? Thuộc tính z-index chỉ có tác dụng trên các phần tử đã được định vị (tức là có position thuộc các giá trị relative, absolute, fixed, hoặc sticky). Thẻ .content của bạn không khai báo position, nên nó mang giá trị mặc định là static. Do đó, dù bạn có cho .content z-index: 9999 thì nó vẫn vô tác dụng. Thẻ <p> có position: sticky, nên nó mặc định nằm ở một "layer" cao hơn và sẽ luôn đè lên .content (vốn là static layer).
+
+    Vì sao luôn nằm dưới BLOCK TRÊN? Cả thẻ <p> (sticky) và BLOCK TRÊN (relative) đều là phần tử đã được định vị (positioned elements). Cả hai đều không có z-index hợp lệ (thẻ <p> bạn để z-index:; là sai cú pháp, trình duyệt sẽ bỏ qua và coi như auto). Khi hai phần tử cùng cấp độ định vị chạm trán nhau, trình duyệt sẽ dùng thứ tự trong HTML (DOM Order) để quyết định. BLOCK TRÊN viết sau thẻ <p> trong HTML, nên nó được vẽ ra sau và đè lên thẻ <p>.
+
+2. Tại sao .header đè lên BLOCK TRÊN nếu top: 5px?
+
+Nguyên lý tương tự như trên. .header có position: sticky và BLOCK TRÊN có position: relative. Cả hai cùng thuộc layer ưu tiên. Tuy nhiên, .header nằm sau BLOCK TRÊN trong HTML.
+
+Do đó, .header mặc định có quyền xếp trên. Khi bạn cuộn chuột, .header bị kẹt lại ở top: 5px, trong khi BLOCK TRÊN cuộn ngược lên trên. Vì .header có quyền ưu tiên cao hơn nhờ DOM Order, nó sẽ trượt đè lên trên BLOCK TRÊN.
+3. Bí ẩn của 2 "Khoảng hở" (Gaps)
+
+Hai khoảng hở này là minh chứng rõ ràng nhất cho việc các thuộc tính relative và sticky xử lý không gian gốc (normal flow) của chúng như thế nào.
+Khoảng hở 1: Hệ quả của position: relative
+
+    Nó là gì? Khoảng hở 1 chính là 20px không gian trống do BLOCK TRÊN để lại.
+
+    Tại sao lại có? Khi bạn áp dụng position: relative; top: 20px; cho BLOCK TRÊN, phần tử này bị đẩy dời xuống 20px về mặt thị giác. Tuy nhiên, nó vẫn giữ nguyên khoảng trống của nó trong luồng HTML ban đầu (ngay dưới mép thẻ <p>). Khoảng trống 20px từ mép thẻ <p> đến mép trên của khối màu đỏ chính là khoảng hở này.
+
+    Lý giải hiện tượng tăng padding thẻ <p>: Bạn nhận xét rất tinh tế. Khi bạn tăng padding thẻ <p> thật to và cuộn chuột, thẻ <p> (sticky) đứng im, khoảng hở 1 (là không gian trống suốt/transparent) cuộn lên. Do khoảng hở này trong suốt, nó sẽ làm lộ ra lớp background màu aqua của thẻ <p> đang nằm bám dính ở dưới nó. Bạn có cảm giác khoảng hở bị "che mất", nhưng thực ra bạn đang nhìn xuyên qua nó.
+
+Khoảng hở 2: "Bóng ma" của thẻ .header
+
+    Nó là gì? Khoảng hở 2 chính là không gian nguyên thủy (khoảng không gian gốc) của .header trước khi nó bị tách ra để bám dính (sticky).
+
+    Tại sao lại có? Thuộc tính position: sticky hoạt động như một hệ lai: ban đầu nó là một phần tử bình thường chiếm chỗ trong luồng HTML. Nhưng khi bị ép trượt đi (do bạn cuộn chuột, hoặc do bạn set top: 500px khiến nó bị đẩy mạnh xuống dưới), phần tử trực quan sẽ trượt đi chỗ khác, nhưng khoảng trống ban đầu của nó thì vẫn nằm nguyên ở đó.
+
+    Lý giải hiện tượng: Khoảng không gian trống nằm giữa BLOCK TRÊN và .content thực chất chính là "bóng ma" của .header để lại.
+
+        Nếu bạn set top rất lớn (như 500px), .header bị đẩy tuột xuống đè lên .content, để lộ ra toàn bộ "Khoảng hở 2" ở phía trên nó.
+
+        Nếu bạn set top: 5px và cuộn chuột: .header bám sát mép trên. Khi bạn cuộn, "bóng ma" của nó (Khoảng hở 2) cùng với .content sẽ cuộn trượt lên. Lúc này .header đang dính ở trên cùng sẽ trượt lên chính "Khoảng hở 2" của mình và tiếp tục đè lên .content.
+
+---------------------
+
+| Thuộc tính               | Thay đổi layout  | Đẩy phần tử khác   | Có thể chồng lên phần tử khác |
+| ------------------------ | ---------------  | ----------------   | ----------------------------- |
+| `margin`                 | ✅ Có            | ✅ Có             | ❌ Không                       |
+| `position: relative`     | ❌ Không         | ❌ Không          | ✅ Có                          |
+| `transform: translate()` | ❌ Không         | ❌ Không          | ✅ Có                          |
+
+---------------------
+
+| Thuộc tính               | Giữ chỗ   | Phần tử khác lấp chỗ |
+| ------------------------ | -------   | -------------------- |
+| `position: relative`     | ✅ Có    | ❌ Không             |
+| `transform: translate()` | ✅ Có    | ❌ Không             |
+| `position: absolute`     | ❌ Không | ✅ Có                |
+
+------------------------
+
+| Thuộc tính      | Thay đổi layout | Có thể đè lên phần tử khác |
+| --------------- | --------------- | -------------------------- |
+| margin          | ✅               | ❌                          |
+| width / height  | ✅               | ❌                          |
+| left (relative) | ❌               | ✅                          |
+| translate()     | ❌               | ✅                          |
+| scale()         | ❌               | ✅                          |
+
+
+Với transform: translate(...); transform: scale(...) ->Layout không hề thay đổi, chỉ có hình ảnh được render thay đổi.
+Thay vì thay đổi kích thước thực của phần tử trong sơ đồ dàn trang (document flow), transform: scale giống như việc bạn đặt một chiếc kính lúp hoặc kính thu nhỏ ngay trước màn hình.
+
+transform tác động lên:
+Toàn bộ phần tử
+├── background
+├── border
+├── text
+├── icon
+├── ảnh
+└── tất cả nội dung bên trong
+
+Transition luôn tồn tại trên phần tử, nên bất cứ khi nào giá trị của thuộc tính được chỉ định thay đổi thì trình duyệt sẽ animate. Nó không phải là "luôn chạy", mà là luôn sẵn sàng chạy.
+
+.box / class định nghĩa cách thay đổi diễn ra (transition).
+:hover định nghĩa thay đổi cái gì (transform, background, color...).
+
+Phân biệt các hàm tốc độ
+linear: Tốc độ đều đặn từ đầu đến cuối. Thường dùng cho các hiệu ứng xoay tròn (như vòng lặp loading).
+ease (mặc định): Bắt đầu chậm, tăng tốc ở giữa và chậm dần khi kết thúc.
+ease-in: Bắt đầu chậm, sau đó tăng tốc độ dần cho đến khi kết thúc. Hiệu ứng giống như vật thể bắt đầu lăn bánh và tăng tốc.
+ease-out: Bắt đầu nhanh (ở tốc độ tối đa), sau đó chậm dần khi chuẩn bị kết thúc. Giống như một chiếc xe đang chạy và đạp phanh dừng lại.
+ease-in-out: Bắt đầu chậm, nhanh nhất ở giai đoạn giữa và chậm lại khi kết thúc. Tương tự như ease nhưng đối xứng hơn.
+
+Một mẹo của frontend developer:
+
+Khi làm website, rất nhiều lập trình viên gần như chỉ dùng 3 giá trị:
+ease
+ease-out
+linear
+
+Trong đó:
+linear → loading, spinner, đồng hồ...
+ease-out → hover, menu, popup...
+ease → mặc định cho hầu hết hiệu ứng.
+
+ease-in và ease-in-out cũng có chỗ dùng, nhưng ít phổ biến hơn trong các tương tác UI hằng ngày
+
+
+transition: transform 1s 1s;
+=
+transition-property: transform;
+transition-duration: 1s;
+transition-delay: 1s;
+
+Việc tách riêng các thuộc tính biến đổi (transform) mang lại nhiều lợi ích trong thiết kế:
+Kiểm soát độc lập: Cho phép bạn áp dụng các khoảng thời gian (duration) hoặc độ trễ (delay) khác nhau cho từng thao tác phóng to, xoay hay nghiêng.
+Quản lý dễ dàng: Bạn có thể kết hợp với các hiệu ứng khác như làm mờ (opacity) hoặc đổi màu nền một cách mượt mà.
+.box {
+  transition: transform 0.3s ease, rotate 0.5s linear;
+}
+
+.box:hover {
+  transform: translateX(100px);
+  rotate: 45deg;
+}
+
+Layout giống bản vẽ kiến trúc (tường ở đâu, cửa ở đâu, kích thước thế nào).
+Scene giống toàn bộ công trường ở thời điểm hiện tại, chứ không chỉ là bản vẽ.
+Vì Scene chứa cả những thứ thay đổi theo thời gian.
+Bản vẽ không đổi.
+Nhưng Scene đã đổi.
+Scene là trạng thái hiện tại của toàn bộ thế giới mà GPU sắp vẽ.
+Thứ tự transform không liên quan đến frame.
+
+Frame chỉ quyết định:
+
+Lúc nào GPU vẽ.
+
+Transform quyết định:
+
+GPU vẽ như thế nào.
+
+Hai việc này độc lập.
+
+Trong thực tế:
+Spinner/loading thường dùng linear.
+Hiệu ứng nổi nhẹ thường dùng ease-in-out.
+Một số hiệu ứng xuất hiện dùng ease-out.
+
+
+<ul> <!-- Cấp 1 -->
+  <li>
+    <a href="#">Item 1</a>
+    <ul> <!-- Cấp 2 -->
+      <li>
+        <a href="#">Item 1.1</a>
+        <ul> <!-- Cấp 3 -->
+          <li><a href="#">Item 1.1.1</a></li>
+          <li><a href="#">Item 1.1.2</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Item 1.2</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Item 2</a></li>
+</ul>
+
+Nguyên tắc nhận biết cấp menu
+Cấp 1: <li> nằm trực tiếp trong <ul> ngoài cùng.
+Cấp 2: <li> nằm trong <ul> bên trong một <li> cấp 1.
+Cấp 3: <li> nằm trong <ul> bên trong một <li> cấp 2.
+Và cứ thế tiếp tục nếu muốn nhiều cấp hơn.
+
+p:first-child
+"Tìm tất cả thẻ p, sau đó giữ lại những p nào đồng thời là con đầu tiên của cha chúng."
+
+.container:first-child ->Chọn phần tử có class container nếu chính nó là first-child.
+Nếu container được chọn thì:
+color: blue;
+
+sẽ kế thừa xuống:
+h1
+p
+section
+paragraph 2
+nên tất cả đều xanh.
+
+.container :first-child ->Trong .container, chọn mọi phần tử là first-child.
+.container
+│
+├── h1
+├── p
+└── section
+      │
+      └── p
+h1
+
+Là con đầu tiên của .container.
+
+✔ Được chọn.
+
+paragraph 1
+
+Không phải con đầu tiên.
+
+❌
+
+section
+
+Không phải con đầu tiên.
+
+❌
+
+paragraph 2
+
+Là con đầu tiên của section.
+
+✔ Được chọn.
+
+---
+p:first-child
+
+Thực ra gồm hai điều kiện.
+
+Điều kiện 1:
+
+p
+
+↓
+
+Phải là p.
+
+Điều kiện 2:
+
+:first-child
+
+↓
+
+Phải là first-child.
+
+Chỉ khi đồng thời đúng cả hai điều kiện thì mới được chọn.
+
+| Thuộc tính    | Được kế thừa? | Vì sao con đổi màu?                   |
+| ------------- | ------------- | ------------------------------------- |
+| `color`       | ✅ Có          | Con nhận `color` từ cha               |
+| `font-size`   | ✅ Có          | Con nhận kích thước chữ               |
+| `font-family` | ✅ Có          | Con nhận font                         |
+| `background`  | ❌ Không       | Chỉ nhìn xuyên qua nếu con trong suốt |
+| `border`      | ❌ Không       | Chỉ cha có border                     |
+| `padding`     | ❌ Không       | Chỉ cha có padding                    |
+
+
+bảng tổng hợp đầy đủ các thuộc tính background trong CSS kèm giá trị mặc định theo chuẩn CSS hiện tại.
+
+📋 Bảng giá trị mặc định của các thuộc tính background
+Thuộc tính CSS	Giá trị mặc định	Ý nghĩa mặc định
+background-color	transparent	Nền trong suốt, nhìn xuyên qua phần tử cha.
+background-image	none	Không có hình nền.
+background-position	0% 0% (hoặc left top)	Ảnh nền bắt đầu từ góc trên bên trái phần tử.
+background-size	auto auto	Ảnh nền giữ nguyên kích thước gốc.
+background-repeat	repeat	Ảnh nền lặp lại cả theo chiều ngang và dọc.
+background-attachment	scroll	Ảnh nền cuộn theo nội dung.
+background-origin	padding-box	Ảnh nền bắt đầu từ mép vùng padding.
+background-clip	border-box	Màu nền/ảnh nền hiển thị đến mép viền (border).
+background-blend-mode	normal	Không trộn màu giữa các lớp nền.
+💡 Ghi chú:
+Shorthand background có thể gộp tất cả các thuộc tính trên, nhưng nếu không khai báo thì mỗi thuộc tính sẽ dùng giá trị mặc định như bảng.
+Một số thuộc tính như background-size và background-blend-mode chỉ xuất hiện từ CSS3 trở đi.
+transparent không phải là màu "trắng" hay "đen", mà là không tô màu (cho phép nhìn xuyên qua).

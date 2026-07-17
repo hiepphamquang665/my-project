@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- 
+1. h1 - h6 - heading
+2. p - paragraph
+3. img - image
+4. a - anchor
+5. ul, ol, li - unordered list, ordered list, list item
+6. table: <thead> th(table header); tbody <tr(table row)> td(table data)
+7. input: <text>; <type> checkbox; <radio> name
+8. button
+9. div
+atttributes: <tag attribute=""></tag>
+tips: choose many similar words->drag one word->ctrl + D to choose more; alt + drag word
+copy similar line of text: alt + shift + arrow down
+CSS in HTML:
+  Internal
+  External
+  Inline
+Link CSS to html by tag <link rel="stylesheet" href="name.css"> (rel=relationship; href=hypertext reference)
+-->
+<html>
+  
+<!--Phần đầu--> 
+<head>
+        <title>F8 - Shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+         <!-- <style>
+          h1{
+            color: red;
+          }
+          h3{
+            color: chartreuse;
+          }
+        </style> 
+
+        <style>
+          
+          #heading-id.heading-class{
+            color:pink;
+          }
+        
+          #heading-id.heading-class{
+            color: darkorange;
+          }
+          
+          
+          h3{
+            color:rebeccapurple;font-size: 50px;
+          }
+          .heading-class{
+            color: black;font-style: italic;
+          }
+          
+        </style>-->
+        <style>
+        
+
+         .box {
+          width: 50vw;
+          height: 50vh;
+          background-color: red;
+        }
+          .cs-unit {
+           font-size: 20vw;
+           font-size: 20vh;
+          }
+          
+        </style>
+    </head>
+<!-- Phần thân -->
+    <body >
+      <div class="box-cha">
+        <div class="box-con"></div>
+        <!--  <p class="van-ban">Chào mừng tới năm 2026</p> -->
+      </div>
+      <div class="test">
+        <p class="mini">checking</p>
+      </div>
+      <div class="box"></div>
+
+       <!-- <h1 class="cs-unit">CSS Units?</h1> -->
+      </div>
+      <div>
+       
+        
+
+         <!-- <h1 title="đây là tiêu đề">Có gì mới trong ngày đầu năm?</h1>
+       <h2 style="color: blueviolet;"> Xin chào thế giới! New year! 2026 good bye 2025 </h2>
+       <h2 style="background-color: aqua;color: chocolate;font-size: 30px;">Happy new year</h2> -->
+       <!-- <h3>Tin chính - Main</h3> -->
+       
+       <!-- <h1 id="myID">CSS Selectors?</h>
+       <h1 class="second-heading">CSS Selectors?</h1>
+       <h1 class="second-heading">CSS Selectors?</h1>
+       <h2 class="second-heading">ID & class</h2> -->
+
+      <!-- <h3 id="heading-id" class="heading-class">H3</h3>
+        <h4>H4</h4>
+        <h5>H5</h5>
+        <h6>H6</h6>
+        <p>example</p>
+       <ol id="list1">
+          <li>Internal, External?</li>
+          <li>Inline - 1000</li>
+          <li>#id - 100</li>
+          <li>.class - 10</li>
+          <li>tag - 1</li>
+          <li>Equal specificity</li>
+          <li>Univernal selector and inherited? - 0</li>
+          <li>!Important</li>
+       </ol> -->
+       
+       <br>
+
+       <div class="header"></div>
+       <div class="photo"></div>
+
+       <!-- <button>Đăng ký</button>
+        <br>
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <br>
+        <input type="radio" name="gender">
+        <input name="gender" type="radio">
+        <input type="radio" name="gender">
+
+        <br>
+        <input type="text">
+        <button>Đăng nhập</button>
+      <p>Lào Cai - Trong ngày đầu chịu ảnh hưởng của không khí lạnh, đỉnh Fansipan đã xuất hiện băng giá, trong khi đó Hà Nội xuống 16 độ C.
+
+Từ đêm qua (24/12), khu vực đỉnh Fansipan, phường Sa Pa ở độ cao 3.143 m bắt đầu xuất hiện băng giá khi nhiệt độ xuống 1-3 độ C. Đến sáng nay, lớp băng dày phủ kín lối đi, mái đá và khu vực cột cờ. Đây là lần băng giá xuất hiện dày nhất kể từ đầu mùa đông 2025-2026.</p>
+        <img src="IMAGE/Fansipan.png" alt="Ảnh băng tuyết">    
+        <br>
+
+        <a href="https://vnexpress.net/bang-gia-phu-kin-dinh-fansipan-4998058.html">Tới trang vnexpress</a>
+
+        <ul>
+            <li>html là gì?</li>
+            <li>css là gì?</li>
+            <li>javascript là gì?</li>
+            <li>react là gì?</li>
+        </ul>
+        <ol>
+          <li>danh sách khách hàng</li>
+          <li>quyền ưu tiên</li>
+          <li>thời gian hoạt động</li>
+        </ol>
+        <table>
+            <thead>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Địa chỉ</th>
+            </thead>
+               
+            <tbody>
+               <tr>
+                    <td>1</td>
+                    <td>Sơn Đặng</td>
+                    <td>Hà Nội</td>
+                </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>Sơn Đặng 2</td>
+                    <td>Hà Nội 2</td>
+                </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>Sơn Đặng 3</td>
+                    <td>Hà Nội 3</td>
+                </tr>
+            </tbody>
+        </table> -->
+      </div>
+    </body>
+</html>

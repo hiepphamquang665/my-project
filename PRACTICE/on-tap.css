@@ -1,0 +1,328 @@
+/* h4{
+    font-size: 40px;font-style: italic;font-weight: bolder; color: brown;
+}
+@keyframes blink{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+.blinking-text{
+    animation: blink 1s infinite;
+}
+h3{
+    font-size: 35px;font-style: oblique;font-weight: bolder;color: yellowgreen;
+}
+*/
+/* :root {
+   --mau-chu: red;
+   --co-chu: 50px;
+   --kieu-chu: italic;
+ 
+}
+
+#extra {
+   color: var(--mau-chu);
+   font-size: var(--co-chu);
+   font-style: var(--kieu-chu);
+}
+
+ ol#uu-tien {
+   color: blue;
+}  */
+
+/* * {
+   color: aqua;
+} */
+
+/* * {
+   color: black;
+}  */
+
+
+/* .quan-trong{
+   color: aqua;
+} */
+
+/* * {
+      color: chocolate;
+} */
+
+th {
+   color: chartreuse;
+}
+
+
+html {
+   font-size: 16px;
+}
+
+ .can-phong {
+   width: 80vw;
+   border: 5px solid saddlebrown;
+   margin: 50px auto;
+}
+
+.chiec-ghe {
+   font-size: 2rem;
+   width: 50%;
+   background-color: lightyellow;
+   margin-top: 1.5em;
+}
+
+
+html {
+   font-size: 20px;
+}
+
+.du-an {
+   font-size: 2rem;
+   border: 2px solid black;
+   padding: 1em;
+}
+
+.tieu-de {
+   font-size: 0.5em;
+   background-color: lightblue;
+   width: 80%;
+}
+
+html {
+   font-size: 16px;
+}
+
+.container {
+   width: 90vw;
+   margin: 40px auto;
+   border: 3px solid #333;
+   text-align: center;
+}
+
+.banner {
+   height: 30vh;
+   background-color: #f0f0f0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header-title {
+   font-size: 2.5rem;
+   color: saddlebrown;
+}
+
+.content-box {
+   width: 70%;
+   margin: 20px auto;
+   padding: 2em;
+}
+
+.btn-detail {
+   font-size: 1.2rem;
+   padding: 0.5em 2em;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+html {
+   font-size: 16px;
+}
+
+.san-pham {
+   width: 400px;
+   padding: 20px;
+   border: 10px solid #333;
+   margin: 30px;
+   box-sizing: content-box;
+}
+
+
+ * {
+   box-sizing: border-box;
+}
+
+
+.module-tu {
+   width: 500px;
+   border: 15px solid #5d4037;
+   padding: 30px;
+   margin: 50px auto;
+}
+
+.ngan-keo {
+   width: 50%;
+   background-color: #d7ccc8;
+   padding: 40px;
+}
+
+.box {
+   width: 60px;
+   height: 60px;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+.box1 {
+   background-color: #5d4037;
+}
+.box2 {
+   background-color: orange;
+}
+.box3 {
+   background-color: blueviolet;
+   padding: 10px;
+   border: 10px solid;
+   margin-left: 100px;
+  /*  border-style: dashed;
+   border-color: #333; */
+}
+
+.rectangle {
+   width: 100px;
+   height: 100px;
+   color: #fff;
+   background-color: darkorchid;
+}
+
+
+.header1 {
+   width: 100%;
+   height: 100px;
+   background-color: blue;
+   padding: 20px;
+   box-sizing: border-box;
+   border: 10px dotted red;
+   margin-bottom: 20px;
+   background-clip: border-box;
+}
+
+
+.header2 {
+   width: 100%;
+   height: 100px;
+   background-color: blue;
+   padding: 20px;
+   box-sizing: border-box;
+   border: 10px dotted red;
+   margin-bottom: 20px;
+   background-clip: padding-box;
+}
+.header3 {
+   width: 100%;
+   height: 100px;
+   background-color: blue;
+   padding: 20px;
+   box-sizing: border-box;
+   border: 10px dotted red;
+   margin-bottom: 20px;
+   background-clip: content-box;
+}
+
+* { color: red; }
+p { color: green; }
+.text { color: blue !important; }
+#title { color: purple; }
+
+.sample {
+  
+   background-color: red;
+   
+   padding: 10px
+   
+}
+.sample1 {
+    padding: 10px;
+   background-color: #5d4037;
+}
+
+.sample2 {
+   padding: 10px;
+   background-color: aqua;
+}
+
+.stamp {
+   width: 500px;
+   height: 500px;
+   background-image: 
+   linear-gradient(0, rgba(255, 7, 0, 0.5), rgba(0, 255, 255, 0.5)); 
+   /* url(IMAGE/Fansipan.png); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: 10px dotted purple;
+   padding: 20px;
+   margin: 20px;
+   box-sizing: padding-box;
+   background-origin: content-box;
+}
+/* .elip{
+   width: 100vw;
+   height: 100vh;
+   background-image: radial-gradient(circle, blue, red);
+   background-size: contain;
+} */
+/* 
+.photo {
+   width: 100%;
+   height: 100vh;
+   margin: 10px;
+   border: 10px dashed red;
+   box-sizing: content-box;
+   padding: 10px;
+   background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzQtMDhhLWt2a2N6ZG4xLmpwZw.jpg);
+   background-repeat: repeat;
+   background-origin: content-box;
+   background-size: 100px;
+} */
+
+html {
+   font-size: 16px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+   .buc-tuong {
+      width: 500px;
+      height: 300px;
+      border: 20px dashed rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      margin: 50px auto;
+      background-image: linear-gradient(90deg, #e66465, #9198e5);
+      background-origin: border-box;
+      background-clip: border-box;
+      background-clip: content-box;
+   }
+
+   .tranh-treo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(https://grammarist.com/wp-content/uploads/Wink-vs.-Blink-Whats-the-Difference-1024x478.png);
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+   }
+
+   .khung-tranh {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+   }
+
+   .chu-nghe-thuat {
+      font-size: 8rem;
+      font-weight: 900;
+      background-image: url(https://m.media-amazon.com/images/I/61w-wwSM4NL._AC_UF1000,1000_QL80_.jpg);
+      background-size: cover;
+      -webkit-background-clip: text;
+      background-clip: text;
+       color: transparent;
+       text-transform: uppercase;
+   }

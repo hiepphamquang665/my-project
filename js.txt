@@ -1,0 +1,15 @@
+<script>
+const name(s) = document.querySelector(All)('.classname of html js-classname')
+function name-of-function() {
+    name.classList.add/remove/toggle('classname')
+}
+for (const name of names) {
+    name.addEventListener('click', name of function)
+}
+name-of-const.addEventListener('click', function(event){
+    event.stopPropagation()
+})
+
+var isOpen = header.clientHeight === 46;
+=== compare
+</script>

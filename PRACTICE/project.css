@@ -1,0 +1,38 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav > li > a {
+    display: inline-block;
+    /* position: relative; */
+    text-transform: uppercase;
+}
+
+#nav li a {
+    padding: ;
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}

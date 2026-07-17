@@ -1,0 +1,137 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+/* .logo { */
+    /* display: flex; */
+    /* position: absolute;
+    left: 40px; */
+    /* top: 0; */
+/* } */
+.cta-button {
+    
+    /* right: 40px; */
+    background: gold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    /* transition: 0.3s; */
+}
+.cta-button:hover {
+    transition: 0.3s;
+}
+
+/* ul {
+    display: flex; */
+    /* position: absolute; */
+    /* justify-content: center; */
+    /* padding: 0; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* margin: 0; */
+    /* align-items: center; */
+/* } */
+/* li{ */
+    /* padding: 10px; */
+    /* text-align: center; */
+    /* justify-content: center;
+}
+
+li:hover {
+    color: #d4af37;
+}
+*/
+header {
+    /* padding-left: 40px; */
+    /* padding: 0 40px; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* background-color: white; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 80px;
+}
+    
+.navlinks ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+
+.high {
+    height: 2000px;
+}
+
+li + li {
+    margin-left: 25px;
+}
+
+
+header:hover .logo,
+header:hover li,
+header:hover .cta-button
+ {
+    color: red;
+    text-decoration: underline;
+}
+
+/* .demo.demo2.demo3 + h3, p{
+    color: blue;
+    font-size: 30px;
+} */
+
+h2 ~ h3 {
+    color: red;
+}
+
+.data ~ div{
+    color: saddlebrown;
+}
+/* a[href]{
+    color: red;
+} */
+
+/* [target="_blank"]{
+    color: pink;
+} */
+
+/* [title~=vnexpress]{
+    color: red;
+} */
+ /* [title*=vnexpress]{
+    color: red;
+ }
+ [title|=pic]{
+    color: blue;
+ } */
+
+ /* [title$=c] {
+    color: pink;
+ } */
+ [title$=abc234] {
+    color: pink;
+ }
+ /* [title$=pic] {
+    color: blue;
+ } */
+ 
+ .lo::first-letter{
+    color: red;
+    font-size: 30px;
+ }
+ .lo::first-line{
+    font-style: italic;
+ }

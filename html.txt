@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+<meta charset="utf-8">
+<body>
+1. h1 - h6 - heading
+2. p - paragraph
+3. img - image <image src="folder/image.jpg or link from interner" alt="description of image">
+4. a - anchor <a href= link of web>note/description for link</a> 
+5. ul, ol, li - unordered list, ordered list, list item
+6. table: <thead> th(table header); <tbody> <tr(table row)> td(table data)
+7. input: <text>; <type> checkbox; <radio> name
+8. button
+9. div 
+tips: choose many similar words->drag one word->ctrl + D to choose more; alt + drag word; ctrl shift L; alt shift right-arrow; alt click; ctrl arrow
+copy similar line of text: alt + shift + arrow down
+comment: <!--comment-->     ctrl + /
+atttributes: <name-tag attribute=""></name-tag>
+CSS in HTML:
+  Internal: <style></style>
+  External
+  Inline
+Link CSS to html by tag <link rel="stylesheet" href="name.css"> (rel=relationship; href=hypertext reference)
+selectors: id="name" -->unique; element: class="name"
+at css: #id name;
+        .class name
+
+Internal, External
+          Inline - 1000
+          #id - 100
+          .class = root = pseudo-class - 10
+          tag - 1 (html is tag selector)
+          Equal specificity
+          Univernal selector and inherited?: - 0 *{} 
+          !Important-->no use semi-colon before
+
+CSS variable --> :root{--name:property}
+tag {property: var(--name)} -->each name use for each property, if use direct-->all tags inherited
+global & local
+CSS prior "direct" vs "inherited"
+html, big tags{}, #parent, root... -->apply direct itself; sub tags inherited
+Direct assigment > inherited value
+score: root(10) > tags:(1)
+*{} -->apply direct elements; needn't and be not "inherited"
+html, body, big tags, #parent -->set original property
+*{} --> break "inherited", no use for color, font-size
+tag #parent .child --> (find all children in #parent in tag) applied/chosen directly
+#parent, child--> applied both
+body, tag, #id, .class: selector grouping
+tag + #id + .class: adjacent sibling combinator
+inherit vs unset: similar; unset can have property of initial for some property
+CSS Units: 
+Absolute Units: px
+Relative Units: %, rem, em, vw, vh.
+% inherited/ depends on parent
+rem depends on html: rem * unit of html (px, %)-->only use font-size property
+rem depends on html: if html has not unit, rem uses default->16px
+em depends on/finds neareast parent, if neareast ones have not, find each near outside tags-->only use font-size property
+default: 100% = 16px
+vw--> viewport width: direct, not depends
+vh--> viewport height: direct, not depends
+vw, vh ratio with browser
+% ratio with parent
+%, rem, em be elastic depend on parent
+unit depends on font-size
+box-model: content, padding, border, margin
+margin: 40px auto-->middle, top & bottom atleast 40px to place
+padding-top: 50% -> equal 50% (1/2 padding-width)
+display: flex
+align-items: horizon
+justify-content: vertical
+text-align: 
+float: left/right
+padding: 10px->top, bottom, left, right.
+padding: 10px 12px->top, bottom(10px), left, right(12px)
+padding: 10px(top), 12px(left, right), 8px(bottom)
+padding: 10px, 12px, 8px, 6px(top, right, bottom, left)
+border-width default: 2px
+border-top/right/bottom/left
+shorthand: border 10px solid/dash/dot color
+box-sizing: border-box(static all); (default-->content-box keep width static make height longer)
+-background-clip uses for background-color
+background-clip default: border-box
+background-clip: border-box->all
+background-clip: padding-box->content + padding
+background-clip: content-box->only content
+background-image: url(link:http)
+linear-gradient: degree, start color, end color
+linear-gradient has background-image's property
+rgba: (alpha: 0-1)
+0.5; 0.1... = .5; .1...
+hex color: 0 - 255(max limit); 0% - 100%
+background-size: %; px; contain; cover. ->object view
+background-repeat: (no-)repeat-x/y
+-background-origin uses for background-image
+background-origin default: padding-box; others: content, border
+-background-position uses for background-image: top, right, bottom, left, center; top left, top right, bottom right, bottom left; %x %y; px(x) px(y)
+background shorthand: (color) url no-repeat center / contain 
+font-weight: limit 100-900 elif be default->700
+div has block's property--> auto width=100vw, only 1 side(height=100vh for example)
+multiple classes
+class= "box"
+class= "box box1"
+class= "box box2"
+... ->box: general class
+box1, box2,...-> def for each
+class= "box-item" ->1 class name "box-item"
+class= "box item"->2 classes: class box and class item 
+box-shadow: (inset) [h-offset] [v-offset] [blur] [spread] [color->rgba];
+:pseudo class-> status(active, hover, focus) selectors
+::pseudo element ->property selectors (::selection; ::before; ::after){
+  content: ""
+  display: block
+}
+position: relative-> by itself(0,0), move top, right, bottom, left
+element > element: parent > children: direct children. div > p (all direct p)
+element, element: choose element(s) and element(s)
+element ~ element: choose all elements preceded
+[attribute]
+[attribute = value]
+[attribute~= value]
+[attribute*= value]
+[attribute|= value]
+[attribute^= value]
+[attribute$= value]
+
+line-height: 1.4-1.6 ->standard
+text-transform
+visibility: hidden/visible;
+opacity: 0 - 1
+display: none/ block/ inline
+transition: opacity 0.5s ease, transform 0.5s ease;
+transform: translateX/Y(20px);
+
+letter-spacing: px
+font-style: italic
+margin-left, margin-right: auto ->element middle
+margin-left: auto;-> space of left full then element pushed right-side
+.clear{clear: both;}
+inline tag input float -> block tag
+width: 25px; -> aspect-ratio: 1 / 1;
+display: grid;
+place-items: center;
+label for = "id-name"
+input type = "text" id = "id-name" placeholder
+position: absolute; top,right, bottom, left
+position: fixed ->overlay
+@keyframes name-of-keyframes{from{} to{}}
+animation: name-of-keyframes 0.5s ease;
+
+#id(.class-name) element [class*="ti-"] {}
+#/class/element:focus {
+  outline: none;
+  boder: 2px solid red;
+}
+flexbox: default-> stretch
+width: 100% -> equal to parent --> stretch with ratio web
+html{scroll-behavior: smooth;}
+Responsive:
+@media (max-width: 800px-> less or equal ~ 0-800px){}
+@media (min-width: 800px){bigger or equal}
+PC: >= 1024px
+TABLET: >= 740px & < 1024px (~740px-1023px)
+MOBILE: <740px (~0-739px)
+max-width: 100%
+
+direct in html vs root?
+
+text can't use width & height, only use font-size?
+
+✅ Flexbox
+flex-direction
+justify-content
+align-items
+flex-grow
+flex-shrink
+flex-basis
+flex
+order
+align-self
+
+✅ Grid
+grid-template-columns
+grid-template-rows
+fr
+repeat
+minmax
+auto-fit
+auto-fill
+grid-column
+grid-row
+auto tracks
+
+✅ Responsive
+media query
+min-width
+max-width
+cascade
+rule ghi đè
+responsive flexbox
+responsive grid

@@ -1,0 +1,56 @@
+/* .showroom li{
+    color: darkgray;
+}
+
+.wood-section > h3 {
+    text-transform: uppercase;
+}
+
+h3 + p {
+    color: green;
+}
+
+h3 ~ ul {
+    list-style: none;
+}
+
+.wood-section li:first-child{
+    font-weight: bold;
+    
+}
+
+li:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+.metal-section li:last-child {
+    color: red;
+} */
+*{
+    box-sizing: border-box;
+}
+
+.kitchen-grid{
+    background-color: #eee;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabinet {
+    width: 30%;
+    height: 300px;
+    border: 2px solid;
+    padding: 20px;
+    /* margin-inline-start: 40px; */
+    vertical-align: top;
+}
+
+.cabinet + .cabinet {
+    background: blue;
+}
+
+button {
+    margin-top: 50px;
+}
