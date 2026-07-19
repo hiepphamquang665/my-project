@@ -230,6 +230,10 @@ animation-fill-mode: forwards / backwards
 animation-delay + animation-fill-mode: backwards
 animation: move 3s linear infinite;
 
+Element node -> tag, class, #
+Text node -> text only -> css can't apply direct
+Browser count all elements include parents, children of html then CSS all
+
 pseudo classes
 :first-child
 :last-child
@@ -245,6 +249,7 @@ pseudo classes
 :only-of-type
 
 .box1 p:first-child, .box2 p:first-child{...}->p of box1 & p of box2
+tag:nth-child(n) -> with each tag, who's direct parents
 
 Adjacent Sibling Selector (+)
 General Sibling Selector (~)
